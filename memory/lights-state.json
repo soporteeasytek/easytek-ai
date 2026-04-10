@@ -1,0 +1,10 @@
+{
+  "lastCheck": "2026-04-04T03:00:00Z",
+  "devices": {
+    "Cocina": { "on": false, "brightness": 100 },
+    "Luces exteriores": { "on": true, "brightness": 101 },
+    "Pared-Cuarto": { "on": true, "brightness": 1 },
+    "Gym": { "on": true, "brightness": 101 },
+    "Floor Lamp": { "on": true, "brightness": 100 }
+  }
+}

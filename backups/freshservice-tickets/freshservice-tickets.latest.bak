@@ -1,0 +1,813 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import os
+import re
+import sys
+import unicodedata
+import urllib.parse
+import urllib.request
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+DEFAULT_BASE_URL = "https://easytek.freshservice.com/api/v2"
+WORKSPACE = Path("/Users/isaacmora/.openclaw/workspace")
+ENV_PATH = WORKSPACE / ".freshservice.env"
+DATA_DIR = WORKSPACE / "skills" / "freshservice-tickets" / "data"
+COMPANIES_PATH = DATA_DIR / "freshservice-companies.json"
+REQUESTERS_PATH = DATA_DIR / "freshservice-requesters.json"
+MANUAL_COMPANY_ALIASES_PATH = DATA_DIR / "manual-company-aliases.json"
+MANUAL_REQUESTER_ALIASES_PATH = DATA_DIR / "manual-requester-aliases.json"
+
+SERVICE_KEYWORDS = {
+    "Instalación": ["instalacion", "instalar"],
+    "Mantenimiento": ["mantenimiento"],
+    "Revisión": ["revision", "revisar"],
+    "Configuración": ["configuracion", "configurar"],
+    "Soporte": ["soporte", "ayuda"],
+    "Incidencia": ["incidencia", "problema", "error", "falla", "no funciona", "no sirve"],
+    "Solicitud": ["solicitud", "solicita", "pedir", "necesita", "requiere"],
+}
+
+DEFAULT_PRIORITY = 1
+DEFAULT_STATUS = 2
+STATUS_CLOSED = 5
+
+
+def load_env_file(path: Path) -> Dict[str, str]:
+    values: Dict[str, str] = {}
+    if not path.exists():
+        return values
+    for raw_line in path.read_text().splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        values[key.strip()] = value.strip()
+    return values
+
+
+def load_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    return json.loads(path.read_text())
+
+
+def resolve_settings(cli_api_key: Optional[str] = None, cli_base_url: Optional[str] = None) -> Tuple[str, str]:
+    env_file = load_env_file(ENV_PATH)
+    api_key_env_var = "FRESHSERVICE_API_KEY"
+
+    api_key = (
+        cli_api_key
+        or os.getenv(api_key_env_var)
+        or env_file.get(api_key_env_var)
+        or os.getenv("FRESHSERVICE_API_KEY_ISAAC")
+        or env_file.get("FRESHSERVICE_API_KEY_ISAAC")
+    )
+    base_url = cli_base_url or os.getenv("FRESHSERVICE_BASE_URL") or env_file.get("FRESHSERVICE_BASE_URL") or DEFAULT_BASE_URL
+
+    if not api_key:
+        print(json.dumps({"error": f"Missing {api_key_env_var}. Set it in .freshservice.env or pass --api-key."}), file=sys.stderr)
+        sys.exit(1)
+    return api_key, base_url.rstrip("/")
+
+
+def request_json(base_url: str, path: str, api_key: str, method: str = "GET", payload: Optional[Dict[str, Any]] = None, query: Optional[Dict[str, Any]] = None) -> Any:
+    url = base_url + path
+    if query:
+        query = {k: v for k, v in query.items() if v is not None}
+        if query:
+            url += "?" + urllib.parse.urlencode(query)
+    data = None
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+    }
+    if payload is not None:
+        data = json.dumps(payload).encode("utf-8")
+    credentials = (api_key + ":X").encode("utf-8")
+    import base64
+    headers["Authorization"] = "Basic " + base64.b64encode(credentials).decode("ascii")
+    req = urllib.request.Request(url, data=data, method=method, headers=headers)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            body = resp.read().decode("utf-8")
+            return json.loads(body) if body else {}
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print(json.dumps({"error": {"status": e.code, "body": body}}, indent=2), file=sys.stderr)
+        sys.exit(1)
+
+
+def print_json(data: Any) -> None:
+    print(json.dumps(data, indent=2, ensure_ascii=False))
+
+
+def normalize(text: Optional[str]) -> str:
+    text = (text or "").strip().lower()
+    text = "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
+    text = re.sub(r"\s+", " ", text)
+    return text
+
+
+def title_case(text: Optional[str]) -> Optional[str]:
+    if not text:
+        return None
+    return " ".join(word.capitalize() for word in text.strip().split())
+
+
+def merge_manual_aliases(companies: List[Dict[str, Any]], requesters: List[Dict[str, Any]]) -> None:
+    manual_companies = load_json(MANUAL_COMPANY_ALIASES_PATH, {"companies": []}).get("companies", [])
+    company_map = {normalize(c.get("name")): c for c in companies}
+    for item in manual_companies:
+        key = normalize(item.get("name"))
+        if key in company_map:
+            aliases = set(company_map[key].get("aliases") or [])
+            aliases.update(normalize(a) for a in item.get("aliases", []))
+            company_map[key]["aliases"] = sorted(a for a in aliases if a)
+
+    manual_requesters = load_json(MANUAL_REQUESTER_ALIASES_PATH, {"requesters": []}).get("requesters", [])
+    requester_map = {(r.get("email") or "").lower(): r for r in requesters}
+    for item in manual_requesters:
+        key = (item.get("email") or "").lower()
+        if key in requester_map:
+            aliases = set(requester_map[key].get("aliases") or [])
+            aliases.update(normalize(a) for a in item.get("aliases", []))
+            requester_map[key]["aliases"] = sorted(a for a in aliases if a)
+
+
+def parse_ticket_id(ticket_ref: str) -> int:
+    match = re.search(r"(\d+)", ticket_ref)
+    if not match:
+        raise ValueError("No pude extraer el número del ticket.")
+    return int(match.group(1))
+
+
+def parse_bullets(text: Optional[str]) -> List[str]:
+    if not text:
+        return []
+    items = []
+    for raw in re.split(r"\n|;", text):
+        clean = raw.strip()
+        if not clean or clean == "-": # Añadir condición para "-"
+            continue
+        clean = re.sub(r"^-+\s*", "", clean)
+        items.append(clean)
+    return items
+
+
+def parse_transcript(transcript: str) -> Dict[str, Any]:
+    raw = transcript.strip()
+    lowered = normalize(raw)
+    intent = "create_ticket" if any(x in lowered for x in ["crea un ticket", "crear ticket", "nuevo ticket", "abre un ticket", "abrir ticket", "crea ticket"]) else "unknown"
+    ticket_type = "incidencia" if any(x in lowered for x in ["no sirve", "falla", "error", "incidencia", "problema", "no funciona"]) else "solicitud"
+
+    service_type = None
+    for label, keys in SERVICE_KEYWORDS.items():
+        if any(k in lowered for k in keys):
+            service_type = label
+            break
+    if not service_type:
+        service_type = "Incidencia" if ticket_type == "incidencia" else "Solicitud"
+
+    equipment_code = None
+    match_code = re.search(r"\b([A-Za-z]{1,4}[\-_]?[0-9]{2,6})\b", raw)
+    if match_code:
+        equipment_code = match_code.group(1).replace(" ", "")
+
+    approved_by = None
+    match_approved = re.search(r"aprobad[oa] por[: ]+([^,.;\n]+)", raw, re.IGNORECASE)
+    if match_approved:
+        approved_by = title_case(match_approved.group(1).strip())
+
+    email_in_text = None
+    match_email = re.search(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", raw, re.IGNORECASE)
+    if match_email:
+        email_in_text = match_email.group(0).lower()
+
+    company_hint = None
+    for pattern in [r"empresa[: ]+([^,.;\n]+)", r"cliente[s]?[: ]+([^,.;\n]+)", r"compa(?:n|ñ)ia[: ]+([^,.;\n]+)", r"asignando a[: ]+([^,.;\n]+)"]:
+        match = re.search(pattern, raw, re.IGNORECASE)
+        if match:
+            company_hint = match.group(1).strip()
+            break
+
+    user_name = None
+    user_patterns = [
+        r"para\s+([A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+){0,3})",
+        r"usuario[: ]+([A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+){0,3})",
+        r"nombre[: ]+([A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ]+){0,3})",
+    ]
+    for pattern in user_patterns:
+        match = re.search(pattern, raw)
+        if match:
+            user_name = match.group(1).strip()
+            break
+
+    request_text = raw
+    prefix_match = re.search(r"(?:crea un ticket|crear ticket|nuevo ticket|abre un ticket|abrir ticket|crea ticket)[: ]*(.*)", raw, re.IGNORECASE)
+    if prefix_match and prefix_match.group(1).strip():
+        request_text = prefix_match.group(1).strip()
+
+    report_text = None
+    report_match = re.search(r"reporte del cliente[: ]+(.+)$", raw, re.IGNORECASE)
+    if report_match:
+        report_text = report_match.group(1).strip()
+
+    actions: List[str] = []
+    actions_match = re.search(r"solicitudes? recibidas?[: ]+(.+)$", raw, re.IGNORECASE)
+    if actions_match:
+        actions = [x.strip(" -") for x in re.split(r";|,|\n", actions_match.group(1)) if x.strip()]
+    elif ticket_type == "solicitud":
+        actions = [request_text]
+
+    return {
+        "intent": intent,
+        "ticket_type": ticket_type,
+        "service_type": service_type,
+        "equipment_code": equipment_code,
+        "user_name": user_name,
+        "company_hint": company_hint,
+        "approved_by": approved_by,
+        "request_text": request_text,
+        "client_report": report_text or (request_text if ticket_type == "incidencia" else None),
+        "requested_actions": actions,
+        "email_in_text": email_in_text,
+        "original_transcript": raw,
+    }
+
+
+def score_candidate(text: str, aliases: List[str]) -> int:
+    norm = normalize(text)
+    score = 0
+    for alias in aliases:
+        a = normalize(alias)
+        if not a:
+            continue
+        if norm == a:
+            score = max(score, 100)
+        elif a in norm or norm in a:
+            score = max(score, 85)
+        else:
+            words = set(norm.split())
+            alias_words = set(a.split())
+            overlap = len(words & alias_words)
+            if overlap:
+                score = max(score, min(75, overlap * 20))
+    return score
+
+
+def top_company_matches(company_hint: Optional[str], requester_email: Optional[str], limit: int = 3) -> List[Dict[str, Any]]:
+    companies = load_json(COMPANIES_PATH, [])
+    requesters = load_json(REQUESTERS_PATH, [])
+    merge_manual_aliases(companies, requesters)
+    ranked: List[Dict[str, Any]] = []
+
+    if requester_email and "@" in requester_email:
+        domain = requester_email.split("@", 1)[1].lower()
+        for company in companies:
+            if domain in (company.get("domains") or []):
+                ranked.append({"match_type": "domain", "score": 100, "company": company})
+
+    if company_hint:
+        hint_norm = normalize(company_hint)
+        cleaned_hint = re.split(r"\bequipo\b|\baprobad[oa]\b|\busuario\b|\bcorreo\b", hint_norm)[0].strip()
+        for company in companies:
+            score = score_candidate(cleaned_hint or company_hint, company.get("aliases") or [company.get("name", "")])
+            if score > 0:
+                ranked.append({"match_type": "name", "score": score, "company": company})
+
+    dedup = {}
+    for item in ranked:
+        cid = item["company"].get("id")
+        if cid not in dedup or item["score"] > dedup[cid]["score"]:
+            dedup[cid] = item
+    ranked = sorted(dedup.values(), key=lambda x: x["score"], reverse=True)
+    return ranked[:limit]
+
+
+def top_requester_matches(email: Optional[str], name_hint: Optional[str], company_name: Optional[str], limit: int = 3) -> List[Dict[str, Any]]:
+    companies = load_json(COMPANIES_PATH, [])
+    requesters = load_json(REQUESTERS_PATH, [])
+    merge_manual_aliases(companies, requesters)
+    ranked: List[Dict[str, Any]] = []
+
+    if email:
+        for requester in requesters:
+            if (requester.get("email") or "").lower() == email.lower():
+                ranked.append({"match_type": "email", "score": 100, "requester": requester})
+
+    if name_hint:
+        for requester in requesters:
+            aliases = list(requester.get("aliases") or [])
+            aliases.extend(requester.get("department_names") or [])
+            if company_name:
+                aliases.append(company_name)
+            score = score_candidate(name_hint, aliases)
+            if score > 0:
+                ranked.append({"match_type": "name", "score": score, "requester": requester})
+
+    dedup = {}
+    for item in ranked:
+        rid = item["requester"].get("id")
+        if rid not in dedup or item["score"] > dedup[rid]["score"]:
+            dedup[rid] = item
+    ranked = sorted(dedup.values(), key=lambda x: x["score"], reverse=True)
+    return ranked[:limit]
+
+
+def build_subject(service_type: Optional[str], equipment_code: Optional[str], user_name: Optional[str]) -> str:
+    pieces = [service_type or "Ticket"]
+    if equipment_code:
+        pieces.append(f"de equipo {equipment_code}")
+    if user_name:
+        pieces.append(f"para {user_name}")
+    return " ".join(pieces)
+
+
+def build_description(contact: Optional[str], subject: str, company_name: Optional[str], parsed: Dict[str, Any]) -> str:
+    lines: List[str] = []
+    # if contact:
+    #     lines.append(f"Contact: {contact}")
+    # lines.append(f"Subject: {subject}")
+    # if company_name:
+    #     lines.append(f"Company: {company_name}")
+    # lines.append("")
+    lines.append("Apertura de ticket para registro y documentación del servicio de soporte.")
+
+    if parsed.get("ticket_type") == "incidencia" and parsed.get("client_report"):
+        lines.append("")
+        lines.append("Reporte del cliente:")
+        lines.append(parsed["client_report"])
+
+    requested_actions = parsed.get("requested_actions") or []
+    if requested_actions:
+        lines.append("")
+        lines.append("Solicitudes recibidas:")
+        # La acción ya viene en formato más directo, se resume para evitar redundancia
+        for action in requested_actions:
+            # Eliminar "para [nombre] por" o similar
+            cleaned_action = re.sub(r"^para\s+[^\s]+\s+por\s+", "", action, flags=re.IGNORECASE).strip()
+            lines.append(f"- {cleaned_action}")
+
+    # info_lines = []
+    # if parsed.get("user_name"):
+    #     info_lines.append(f"- Usuario: {parsed['user_name']}")
+    # if parsed.get("equipment_code"):
+    #     info_lines.append(f"- Equipo: {parsed['equipment_code']}")
+    # if contact:
+    #     info_lines.append(f"- Correo principal: {contact}")
+    # if parsed.get("approved_by"):
+    #     info_lines.append(f"- Aprobado por: {parsed['approved_by']}")
+
+    # if info_lines:
+    #     lines.append("")
+    #     lines.append("Información importante:")
+    #     lines.extend(info_lines)
+
+    return "<div>" + "<br>".join(lines).strip() + "</div>"
+
+
+def text_to_freshservice_html(text: str) -> str:
+    html_parts: List[str] = []
+    lines = text.split("\n")
+    i = 0
+
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
+            continue
+
+        if line.endswith(":"):
+            html_parts.append(f"<div><strong>{line}</strong></div>")
+            i += 1
+            bullet_items: List[str] = []
+            while i < len(lines):
+                bullet_line = lines[i].strip()
+                if not bullet_line:
+                    i += 1
+                    if bullet_items:
+                        break
+                    continue
+                if bullet_line.startswith("- "):
+                    bullet_items.append(bullet_line[2:].strip())
+                    i += 1
+                    continue
+                break
+            if bullet_items:
+                html_parts.append("<ul>" + "".join(f"<li>{item}</li>" for item in bullet_items) + "</ul>")
+                html_parts.append("<div><br></div>")
+            continue
+
+        if line.startswith("- "):
+            bullet_items = []
+            while i < len(lines):
+                bullet_line = lines[i].strip()
+                if bullet_line.startswith("- "):
+                    bullet_items.append(bullet_line[2:].strip())
+                    i += 1
+                else:
+                    break
+            html_parts.append("<ul>" + "".join(f"<li>{item}</li>" for item in bullet_items) + "</ul>")
+            html_parts.append("<div><br></div>")
+            continue
+
+        html_parts.append(f"<div>{line}</div>")
+        html_parts.append("<div><br></div>")
+        i += 1
+
+    return "".join(html_parts)
+
+
+def build_report_reply_body(ticket_ref: str, actions: List[str], pendientes: List[str]) -> str:
+    lines = [f"Reporte de atención de ticket #{ticket_ref}.", "", "Acciones:"]
+    if actions:
+        lines.extend([f"- {item}" for item in actions])
+    else:
+        lines.append("-")
+    if pendientes:
+        lines.extend(["", "Pendientes:"])
+        lines.extend([f"- {item}" for item in pendientes])
+    return text_to_freshservice_html("\n".join(lines))
+
+
+def build_private_note_body(note: str) -> str:
+    stripped = note.strip()
+    if "\n" in stripped or "- " in stripped:
+        return text_to_freshservice_html(stripped)
+    return stripped
+
+
+def build_payload(args, parsed: Dict[str, Any]) -> Dict[str, Any]:
+    contact_email = args.email or parsed.get("email_in_text")
+    company_matches = top_company_matches(parsed.get("company_hint"), contact_email)
+    company_match = company_matches[0] if company_matches else None
+    company_name = company_match["company"]["name"] if company_match else None
+
+    requester_matches = top_requester_matches(contact_email, parsed.get("user_name"), company_name)
+    requester_match = requester_matches[0] if requester_matches else None
+
+    subject = args.subject or build_subject(parsed.get("service_type"), parsed.get("equipment_code"), parsed.get("user_name"))
+    description = args.description or build_description(contact_email, subject, company_name, parsed)
+
+    payload = {
+        "subject": subject,
+        "description": description,
+        "email": contact_email,
+        "priority": args.priority,
+        "status": args.status,
+    }
+    if company_match and company_match["score"] >= 80 and company_match["company"].get("id"):
+        payload["department_id"] = company_match["company"]["id"]
+
+    warnings = []
+    if not contact_email:
+        warnings.append("Falta email del requester.")
+    if company_matches and len(company_matches) > 1 and company_matches[0]["score"] == company_matches[1]["score"]:
+        warnings.append("Empresa ambigua, conviene confirmar.")
+    if requester_matches and len(requester_matches) > 1 and requester_matches[0]["score"] == requester_matches[1]["score"]:
+        warnings.append("Requester ambiguo, conviene confirmar.")
+    if company_match and requester_match:
+        requester_departments = requester_match["requester"].get("department_names") or []
+        if company_name and requester_departments and company_name not in requester_departments:
+            warnings.append("El requester y la empresa detectada no coinciden del todo.")
+
+    return {
+        "payload": {k: v for k, v in payload.items() if v is not None},
+        "subject": subject,
+        "description": description,
+        "company_matches": company_matches,
+        "requester_matches": requester_matches,
+        "warnings": warnings,
+        "contact_email": contact_email,
+    }
+
+
+def conversational_intent(text: str) -> str:
+    lowered = normalize(text)
+    if any(x in lowered for x in ["reporte de atencion", "agregale reporte", "agrega reporte", "reply", "responde ticket"]):
+        return "reply-report"
+    if any(x in lowered for x in ["nota privada", "agrega nota", "ponle nota", "comentario interno"]):
+        return "add-note"
+    if any(x in lowered for x in ["timesheet", "time entry", "tiempo", "horas", "hora", "minutos"]) and any(x in lowered for x in ["ticket", "inc-"]):
+        return "add-time-entry"
+    if any(x in lowered for x in ["cierra ticket", "cerra ticket", "cierralo", "ciérralo", "cerralo"]):
+        return "close-ticket"
+    if any(x in lowered for x in ["ver ticket", "consulta ticket", "busca ticket", "get ticket"]):
+        return "get-ticket"
+    if any(x in lowered for x in ["crea un ticket", "crear ticket", "crea ticket", "abre ticket", "nuevo ticket"]):
+        return "voice-command"
+    return "unknown"
+
+
+def extract_actions_and_pending(text: str) -> Tuple[List[str], List[str]]:
+    actions = []
+    pending = []
+    m_actions = re.search(r"acciones?[: ]+(.+?)(?:pendientes?[: ]+|$)", text, re.IGNORECASE | re.DOTALL)
+    if m_actions:
+        actions = parse_bullets(m_actions.group(1).strip())
+    m_pending = re.search(r"pendientes?[: ]+(.+)$", text, re.IGNORECASE | re.DOTALL)
+    if m_pending:
+        pending = parse_bullets(m_pending.group(1).strip())
+    return actions, pending
+
+
+def extract_time_spent_minutes(text: str) -> Optional[int]:
+    lowered = normalize(text)
+
+    match_hm = re.search(r"(\d+(?:[\.,]\d+)?)\s*(?:horas|hora|hrs|hr|h)", lowered)
+    if match_hm:
+        hours = float(match_hm.group(1).replace(",", "."))
+        return int(round(hours * 60))
+
+    match_min = re.search(r"(\d+)\s*(?:minutos|minuto|mins|min)\b", lowered)
+    if match_min:
+        return int(match_min.group(1))
+
+    return None
+
+
+def cmd_voice_command(args):
+    api_key, base_url = resolve_settings()
+    parsed = parse_transcript(args.transcript)
+
+    if parsed["intent"] != "create_ticket":
+        print_json({"status": "error", "message": "Comando no reconocido o no implementado.", "parsed_command": parsed})
+        sys.exit(1)
+
+    prepared = build_payload(args, parsed)
+
+    if args.preview:
+        print_json({
+            "status": "preview",
+            "parsed_command": parsed,
+            "subject": prepared["subject"],
+            "description": prepared["description"],
+            "payload": prepared["payload"],
+            "company_matches": prepared["company_matches"],
+            "requester_matches": prepared["requester_matches"],
+            "warnings": prepared["warnings"],
+        })
+        return
+
+    if not prepared["contact_email"]:
+        print_json({"error": "email_required_for_create_ticket", "message": "Para crear un ticket, necesito el email del solicitante."})
+        sys.exit(1)
+
+    data = request_json(base_url, "/tickets", api_key, method="POST", payload=prepared["payload"])
+    ticket = data.get("ticket") or {}
+    print_json({
+        "status": "success",
+        "action": "create_ticket",
+        "ticket_id": ticket.get("id") or data.get("id"),
+        "subject": ticket.get("subject") or prepared["subject"],
+        "warnings": prepared["warnings"],
+        "company_match": prepared["company_matches"][0] if prepared["company_matches"] else None,
+        "requester_match": prepared["requester_matches"][0] if prepared["requester_matches"] else None,
+        "parsed_command": parsed,
+        "data": data,
+    })
+
+
+def cmd_reply_report(args):
+    api_key, base_url = resolve_settings()
+    ticket_id = parse_ticket_id(args.ticket)
+    actions = parse_bullets(args.actions)
+    pendientes = parse_bullets(args.pending)
+    body = build_report_reply_body(args.ticket.upper(), actions, pendientes)
+
+    if args.preview:
+        print_json({"status": "preview", "action": "reply_report", "ticket_id": ticket_id, "body": body, "payload": {"body": body}})
+        return
+
+    data = request_json(base_url, f"/tickets/{ticket_id}/reply", api_key, method="POST", payload={"body": body})
+    print_json({"status": "success", "action": "reply_report", "ticket_id": ticket_id, "body": body, "data": data})
+
+
+def cmd_add_note(args):
+    api_key, base_url = resolve_settings()
+    ticket_id = parse_ticket_id(args.ticket)
+    body = build_private_note_body(args.note)
+    payload = {"body": body, "private": True}
+
+    if args.preview:
+        print_json({"status": "preview", "action": "add_note", "ticket_id": ticket_id, "payload": payload})
+        return
+
+    data = request_json(base_url, f"/tickets/{ticket_id}/notes", api_key, method="POST", payload=payload)
+    print_json({"status": "success", "action": "add_note", "ticket_id": ticket_id, "data": data})
+
+
+def cmd_add_time_entry(args):
+    api_key, base_url = resolve_settings()
+    ticket_id = parse_ticket_id(args.ticket)
+    time_spent_minutes = args.time_spent_minutes
+    note = args.note or f"Tiempo registrado: {time_spent_minutes} minutos."
+
+    env_file = load_env_file(ENV_PATH)
+    agent_id = os.getenv("FRESHSERVICE_AGENT_ID") or env_file.get("FRESHSERVICE_AGENT_ID") or os.getenv("FRESHSERVICE_AGENT_ID_ISAAC") or env_file.get("FRESHSERVICE_AGENT_ID_ISAAC")
+
+    # Convertir minutos a HH:MM
+    total_minutes = int(time_spent_minutes)
+    hours = total_minutes // 60
+    minutes = total_minutes % 60
+    time_spent_formatted = f"{hours:02d}:{minutes:02d}"
+
+    payload = {"time_entry": {"time_spent": time_spent_formatted, "note": note}}
+    if agent_id:
+        payload["time_entry"]["agent_id"] = int(agent_id)
+
+    if args.preview:
+        print_json({"status": "preview", "action": "add_time_entry", "ticket_id": ticket_id, "payload": payload})
+        return
+
+    data = request_json(base_url, f"/tickets/{ticket_id}/time_entries", api_key, method="POST", payload=payload)
+    print_json({"status": "success", "action": "add_time_entry", "ticket_id": ticket_id, "data": data})
+
+
+def cmd_close_ticket(args):
+    api_key, base_url = resolve_settings()
+    ticket_id = parse_ticket_id(args.ticket)
+
+    # Primero, agregar la entrada de tiempo si se especificó
+    if args.time_spent_minutes is not None:
+        time_entry_payload = {
+            "time_entry": {
+                "time_spent": f"{int(args.time_spent_minutes // 60):02d}:{int(args.time_spent_minutes % 60):02d}",
+                "note": args.resolution_note or f"Tiempo registrado al cerrar: {args.time_spent_minutes} minutos."
+            }
+        }
+        if args.preview:
+            print_json({"status": "preview_time_entry", "action": "add_time_entry_on_close", "ticket_id": ticket_id, "payload": time_entry_payload})
+            # No retornar, continuar para el preview del cierre
+        else:
+            request_json(base_url, f"/tickets/{ticket_id}/time_entries", api_key, method="POST", payload=time_entry_payload)
+
+    payload = {"status": args.status}
+    if args.resolution_note:
+        payload["resolution_notes"] = args.resolution_note.strip()
+
+    if args.preview and not args.time_spent_minutes:
+        print_json({"status": "preview", "action": "close_ticket", "ticket_id": ticket_id, "payload": payload})
+        return
+    elif args.preview and args.time_spent_minutes:
+        # Si ya hicimos preview del time entry, solo mostrar preview del cierre
+        print_json({"status": "preview_close_ticket", "action": "close_ticket", "ticket_id": ticket_id, "payload": payload})
+        return
+
+    data = request_json(base_url, f"/tickets/{ticket_id}", api_key, method="PUT", payload=payload)
+    print_json({"status": "success", "action": "close_ticket", "ticket_id": ticket_id, "data": data})
+
+
+def cmd_get_ticket(args):
+    api_key, base_url = resolve_settings()
+    ticket_id = parse_ticket_id(args.ticket)
+    data = request_json(base_url, f"/tickets/{ticket_id}", api_key)
+    print_json({"status": "success", "action": "get_ticket", "ticket_id": ticket_id, "data": data})
+
+
+def cmd_chat(args):
+    text = args.text.strip()
+    intent = conversational_intent(text)
+
+    if intent == "voice-command":
+        proxy = argparse.Namespace(
+            transcript=text,
+            email=args.email,
+            priority=args.priority,
+            status=args.status,
+            subject=None,
+            description=None,
+            preview=args.preview,
+        )
+        return cmd_voice_command(proxy)
+
+    if intent == "reply-report":
+        ticket_match = re.search(r"(?:ticket\s*#?|inc[- ]?)(\d+)", text, re.IGNORECASE)
+        if not ticket_match:
+            print_json({"status": "error", "message": "Necesito el número del ticket para el reply público."})
+            sys.exit(1)
+        actions, pending = extract_actions_and_pending(text)
+        proxy = argparse.Namespace(
+            ticket=f"INC-{ticket_match.group(1)}",
+            actions="; ".join(actions),
+            pending="; ".join(pending),
+            preview=args.preview,
+        )
+        return cmd_reply_report(proxy)
+
+    if intent == "add-note":
+        ticket_match = re.search(r"(?:ticket\s*#?|inc[- ]?)(\d+)", text, re.IGNORECASE)
+        if not ticket_match:
+            print_json({"status": "error", "message": "Necesito el número del ticket para agregar la nota privada."})
+            sys.exit(1)
+        note = re.split(r"nota privada|agrega nota|ponle nota|comentario interno", text, flags=re.IGNORECASE, maxsplit=1)
+        body = note[1].strip(" :.-") if len(note) > 1 else text
+        body = re.sub(r"^(al\s+)?inc[- ]?\d+\s*", "", body, flags=re.IGNORECASE).strip()
+        proxy = argparse.Namespace(ticket=f"INC-{ticket_match.group(1)}", note=body, preview=args.preview)
+        return cmd_add_note(proxy)
+
+    if intent == "add-time-entry":
+        ticket_match = re.search(r"(?:ticket\s*#?|inc[- ]?)(\d+)", text, re.IGNORECASE)
+        if not ticket_match:
+            print_json({"status": "error", "message": "Necesito el número del ticket para registrar el tiempo."})
+            sys.exit(1)
+        time_spent_minutes = extract_time_spent_minutes(text)
+        if time_spent_minutes is None:
+            print_json({"status": "error", "message": "Necesito la cantidad de tiempo, por ejemplo 1.5 horas o 90 minutos."})
+            sys.exit(1)
+        note_match = re.search(r"(?:nota|detalle|comentario)[: ]+(.+)$", text, re.IGNORECASE)
+        note = note_match.group(1).strip() if note_match else None
+        proxy = argparse.Namespace(ticket=f"INC-{ticket_match.group(1)}", time_spent_minutes=time_spent_minutes, note=note, preview=args.preview)
+        return cmd_add_time_entry(proxy)
+
+    if intent == "close-ticket":
+        ticket_match = re.search(r"(?:ticket\s*#?|inc[- ]?)(\d+)", text, re.IGNORECASE)
+        if not ticket_match:
+            print_json({"status": "error", "message": "Necesito el número del ticket para cerrarlo."})
+            sys.exit(1)
+        resolution = None
+        resolution_match = re.search(r"(?:porque|nota|comentario|resolucion|resolución)[: ]+(.+)$", text, re.IGNORECASE)
+        if resolution_match:
+            resolution = resolution_match.group(1).strip()
+        proxy = argparse.Namespace(ticket=f"INC-{ticket_match.group(1)}", status=STATUS_CLOSED, resolution_note=resolution, preview=args.preview)
+        return cmd_close_ticket(proxy)
+
+    if intent == "get-ticket":
+        ticket_match = re.search(r"(?:ticket\s*#?|inc[- ]?)(\d+)", text, re.IGNORECASE)
+        if not ticket_match:
+            print_json({"status": "error", "message": "Necesito el número del ticket para consultarlo."})
+            sys.exit(1)
+        proxy = argparse.Namespace(ticket=f"INC-{ticket_match.group(1)}")
+        return cmd_get_ticket(proxy)
+
+    print_json({
+        "status": "error",
+        "message": "No pude inferir la intención. Prueba con crear ticket, reply, nota privada, cerrar ticket o consultar ticket.",
+        "text": text,
+    })
+    sys.exit(1)
+
+
+def build_parser():
+    parser = argparse.ArgumentParser(description="Freshservice Tickets Skill")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p = sub.add_parser("voice-command")
+    p.add_argument("--transcript", required=True, help="Comando de voz transcrito.")
+    p.add_argument("--email", help="Email del solicitante para la creación de tickets.")
+    p.add_argument("--priority", type=int, default=DEFAULT_PRIORITY)
+    p.add_argument("--status", type=int, default=DEFAULT_STATUS)
+    p.add_argument("--subject")
+    p.add_argument("--description")
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_voice_command)
+
+    p = sub.add_parser("reply-report")
+    p.add_argument("--ticket", required=True)
+    p.add_argument("--actions")
+    p.add_argument("--pending")
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_reply_report)
+
+    p = sub.add_parser("add-note")
+    p.add_argument("--ticket", required=True)
+    p.add_argument("--note", required=True)
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_add_note)
+
+    p = sub.add_parser("add-time-entry")
+    p.add_argument("--ticket", required=True)
+    p.add_argument("--time-spent-minutes", type=int, required=True, help="Tiempo dedicado en minutos.")
+    p.add_argument("--note", help="Nota para la entrada de tiempo.")
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_add_time_entry)
+
+    p = sub.add_parser("close-ticket")
+    p.add_argument("--ticket", required=True)
+    p.add_argument("--status", type=int, default=STATUS_CLOSED)
+    p.add_argument("--resolution-note", help="Nota de resolución al cerrar el ticket.")
+    p.add_argument("--time-spent-minutes", type=int, help="Opcional: tiempo dedicado en minutos a agregar al cerrar el ticket.")
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_close_ticket)
+
+    p = sub.add_parser("get-ticket")
+    p.add_argument("--ticket", required=True)
+    p.set_defaults(func=cmd_get_ticket)
+
+    p = sub.add_parser("chat")
+    p.add_argument("--text", required=True, help="Instrucción conversacional en lenguaje natural.")
+    p.add_argument("--email", help="Email del requester si aplica.")
+    p.add_argument("--priority", type=int, default=DEFAULT_PRIORITY)
+    p.add_argument("--status", type=int, default=DEFAULT_STATUS)
+    p.add_argument("--preview", action="store_true")
+    p.set_defaults(func=cmd_chat)
+
+    return parser
+
+
+if __name__ == "__main__":
+    parser = build_parser()
+    args = parser.parse_args()
+    args.func(args)

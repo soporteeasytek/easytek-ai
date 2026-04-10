@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@ai-labs-claude-skills/seo-optimizer": "file:../../Downloads/seo-optimizer"
+  }
+}

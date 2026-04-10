@@ -1,0 +1,169 @@
+cliente:
+  nombre_empresa: "Statera Outsourcing"
+  nombre_comercial: "Statera Outsourcing"
+  slug: "statera-outsourcing"
+  estado_cliente: activo
+  tipo_contrato: ""
+  fecha_onboarding: ""
+  dominios:
+    principal: "stateracr.com"
+    respaldo: "stateraoutsourcingcr.onmicrosoft.com"
+  notas_generales: "Expediente inicial generado desde PDF base de onboarding."
+
+contactos:
+  principal:
+    nombre: ""
+    cargo: ""
+    correo: ""
+    telefono: ""
+    nivel_acceso: ""
+  adicionales: []
+  terceros:
+    - proveedor: "Gerson Solano"
+      servicio_que_gestiona: "Red local"
+      correo: ""
+      telefono: ""
+      escalable: true
+      notas: "Mencionado en documentación base."
+    - proveedor: "Cordero & Cordero"
+      servicio_que_gestiona: "Por confirmar"
+      correo: ""
+      telefono: ""
+      escalable: true
+      notas: "Mencionado en documentación base."
+
+helpdesk:
+  plataforma_itsm: "Freshservice"
+  correo_tickets: "helpdesk@easytek.cr"
+  agentes: []
+  prioridades: []
+
+plataformas:
+  servicios:
+    - proveedor: "Microsoft"
+      nombre_servicio: "Microsoft 365"
+      cuenta_administrativa: ""
+      contacto_tecnico_nombre: "Soporte easyTEK"
+      contacto_tecnico_correo: "soporte@easytek.cr"
+      fecha_pago: ""
+      ciclo_pago: ""
+      fecha_vencimiento: ""
+      renovacion_automatica: false
+      estado: "activo"
+      notas: "Pendiente completar detalle de licencias y cuentas." 
+    - proveedor: "Cloudflare"
+      nombre_servicio: "Cloudflare"
+      cuenta_administrativa: ""
+      contacto_tecnico_nombre: "Soporte easyTEK"
+      contacto_tecnico_correo: "soporte@easytek.cr"
+      fecha_pago: ""
+      ciclo_pago: ""
+      fecha_vencimiento: ""
+      renovacion_automatica: false
+      estado: "activo"
+      notas: "Pendiente completar." 
+    - proveedor: "ESET"
+      nombre_servicio: "ESET"
+      cuenta_administrativa: ""
+      contacto_tecnico_nombre: "Soporte easyTEK"
+      contacto_tecnico_correo: "soporte@easytek.cr"
+      fecha_pago: ""
+      ciclo_pago: ""
+      fecha_vencimiento: ""
+      renovacion_automatica: false
+      estado: "activo"
+      notas: "Pendiente completar." 
+  plataformas_generales: []
+  microsoft_365:
+    usuarios: []
+    buzones_compartidos: []
+
+infraestructura:
+  equipos: []
+  servidores:
+    - proveedor: "Amazon Web Services"
+      tipo_instancia: "t3a.xlarge"
+      cuenta_administrativa: "aws@stateracr.com"
+      fecha_pago: "02 de cada mes"
+      ciclo_pago: "mensual"
+      sistema_operativo: ""
+      usuarios_acceso: []
+      notas: "Pendiente completar accesos y SO."
+  redes_dominios:
+    dominios:
+      - nombre: "stateracr.com"
+        registrador: "TUCOWS"
+        fecha_vencimiento: "02 de septiembre"
+        renovacion: "anual"
+        nameservers_administrador: "Gerson Solano"
+        cdn_firewall: "Cloudflare"
+        cuenta_gestion: "soporte@easytek.cr"
+    red_local:
+      administrador: "Gerson Solano"
+      contacto: ""
+      notas: "Pendiente detalle de red local."
+    vpn_firewall:
+      proveedor: "Cloudflare"
+      tipo_configuracion: "Whitelist"
+      cuenta_gestion: ""
+      notas: "Pendiente completar."
+
+seguridad:
+  medidas_implementadas: []
+  oportunidades_mejora:
+    - descripcion: "Administrador de contraseñas para usuarios"
+      prioridad: "alta"
+      estado: "pendiente"
+      fecha_identificacion: ""
+      notas: "Extraído de documento base."
+
+procedimientos:
+  recurrentes: []
+
+completitud:
+  estado: borrador
+  porcentaje: 25
+  faltantes_criticos:
+    - "Contacto principal"
+    - "Inventario de equipos"
+    - "Usuarios y licencias Microsoft 365"
+    - "Medidas de seguridad implementadas"
+  faltantes_importantes:
+    - "Fechas de pago y vencimiento de servicios"
+    - "Accesos a AWS"
+    - "Documentación de red local"
+  ultima_revision: "2026-04-09"
+
+checklist_onboarding:
+  datos_generales:
+    nombre_tipo_contrato: false
+    dominios_documentados: true
+    contacto_principal_confirmado: false
+  infraestructura:
+    equipos_inventariados: false
+    equipos_sin_asignar_documentados: false
+    servidores_registrados: true
+    estado_fisico_evaluado: false
+  licenciamiento:
+    servicios_con_fecha_pago: false
+    cuentas_admin_confirmadas: false
+    alertas_vencimiento_configuradas: false
+  microsoft_365:
+    usuarios_verificados: false
+    mfa_habilitado: false
+    buzones_documentados: false
+    politicas_seguridad_activas: false
+  seguridad:
+    dkim_spf_dmarc_verificados: false
+    antivirus_documentado: false
+    contrasenas_complejidad_activa: false
+    vpn_firewall_documentado: true
+    mejoras_identificadas: true
+  accesos:
+    accesos_servidor_listados: false
+    cuentas_en_1password: false
+    buzones_servicio_asignados: false
+  procedimientos:
+    tickets_recurrentes_configurados: false
+    responsables_asignados: false
+    mantenimientos_calendarizados: false

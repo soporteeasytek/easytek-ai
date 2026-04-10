@@ -1,0 +1,97 @@
+cliente:
+  nombre_empresa: ""
+  nombre_comercial: ""
+  slug: ""
+  estado_cliente: activo
+  tipo_contrato: ""
+  fecha_onboarding: ""
+  dominios:
+    principal: ""
+    respaldo: ""
+  notas_generales: ""
+
+contactos:
+  principal:
+    nombre: ""
+    cargo: ""
+    correo: ""
+    telefono: ""
+    nivel_acceso: ""
+  adicionales: []
+  terceros: []
+
+helpdesk:
+  plataforma_itsm: "Freshservice"
+  correo_tickets: "helpdesk@easytek.cr"
+  agentes: []
+  prioridades: []
+
+plataformas:
+  servicios: []
+  plataformas_generales: []
+  microsoft_365:
+    usuarios: []
+    buzones_compartidos: []
+
+infraestructura:
+  equipos: []
+  servidores: []
+  redes_dominios:
+    dominios: []
+    red_local:
+      administrador: ""
+      contacto: ""
+      notas: ""
+    vpn_firewall:
+      proveedor: ""
+      tipo_configuracion: ""
+      cuenta_gestion: ""
+      notas: ""
+
+seguridad:
+  medidas_implementadas: []
+  oportunidades_mejora: []
+
+procedimientos:
+  recurrentes: []
+
+completitud:
+  estado: borrador
+  porcentaje: 0
+  faltantes_criticos: []
+  faltantes_importantes: []
+  ultima_revision: ""
+
+checklist_onboarding:
+  datos_generales:
+    nombre_tipo_contrato: false
+    dominios_documentados: false
+    contacto_principal_confirmado: false
+  infraestructura:
+    equipos_inventariados: false
+    equipos_sin_asignar_documentados: false
+    servidores_registrados: false
+    estado_fisico_evaluado: false
+  licenciamiento:
+    servicios_con_fecha_pago: false
+    cuentas_admin_confirmadas: false
+    alertas_vencimiento_configuradas: false
+  microsoft_365:
+    usuarios_verificados: false
+    mfa_habilitado: false
+    buzones_documentados: false
+    politicas_seguridad_activas: false
+  seguridad:
+    dkim_spf_dmarc_verificados: false
+    antivirus_documentado: false
+    contrasenas_complejidad_activa: false
+    vpn_firewall_documentado: false
+    mejoras_identificadas: false
+  accesos:
+    accesos_servidor_listados: false
+    cuentas_en_1password: false
+    buzones_servicio_asignados: false
+  procedimientos:
+    tickets_recurrentes_configurados: false
+    responsables_asignados: false
+    mantenimientos_calendarizados: false

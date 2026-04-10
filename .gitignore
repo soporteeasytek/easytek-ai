@@ -1,0 +1,48 @@
+# Secrets and env
+*.env
+.env.*
+!.env.example
+!.freshservice.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# OpenClaw / Paperclip sensitive state
+.openclaw/
+.auth/
+auth-profiles.json
+sessions.json
+openclaw.json
+
+# Runtime / caches
+node_modules/
+.cache/
+.tmp/
+tmp/
+*.log
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Python / JS artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+
+# Sensitive local files
+.freshservice-identities.json
+snapshot.json
+
+# Optional private learning scratch
+.learnings/
+
+# Keep repo focused
+package-lock.json
+.clawhub/
+gmail/
+tmp_*.md

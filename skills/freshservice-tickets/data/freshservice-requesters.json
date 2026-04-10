@@ -1,0 +1,5090 @@
+[
+  {
+    "id": 7002427153,
+    "name": "2786163624",
+    "normalized_name": "2786163624",
+    "email": "info@blackstoncustomhomes.com",
+    "email_domain": "blackstoncustomhomes.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "2786163624",
+      "info@blackstoncustomhomes.com"
+    ]
+  },
+  {
+    "id": 7002059997,
+    "name": "ADMINISTRACIÓN y FINANZAS",
+    "normalized_name": "administración y finanzas",
+    "email": "adm.y.finanzas23@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "adm.y.finanzas23@gmail.com",
+      "administración y",
+      "administración y finanzas",
+      "finanzas"
+    ]
+  },
+  {
+    "id": 7002375746,
+    "name": "ADMINISTRACIÓN y FINANZAS",
+    "normalized_name": "administración y finanzas",
+    "email": "flujo@seminariostop.org",
+    "email_domain": "seminariostop.org",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "administración y",
+      "administración y finanzas",
+      "finanzas",
+      "flujo@seminariostop.org"
+    ]
+  },
+  {
+    "id": 7002110247,
+    "name": "ALMACENES Control Interno",
+    "normalized_name": "almacenes control interno",
+    "email": "almacenes.control.interno5@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "almacenes control",
+      "almacenes control interno",
+      "almacenes.control.interno5@gmail.com",
+      "interno"
+    ]
+  },
+  {
+    "id": 7002305685,
+    "name": "ARCHIVOS Y DOCUMENTOS",
+    "normalized_name": "archivos y documentos",
+    "email": "archivos@seminariostop.bio",
+    "email_domain": "seminariostop.bio",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "archivos y",
+      "archivos y documentos",
+      "archivos@seminariostop.bio",
+      "documentos"
+    ]
+  },
+  {
+    "id": 7002246079,
+    "name": "ASISTENTE WOS",
+    "normalized_name": "asistente wos",
+    "email": "asistente@woscr.com",
+    "email_domain": "woscr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "asistente",
+      "asistente wos",
+      "asistente@woscr.com",
+      "wos"
+    ]
+  },
+  {
+    "id": 7002075653,
+    "name": "Aaron Aguilera",
+    "normalized_name": "aaron aguilera",
+    "email": "aaron.aguilera@daytonasoft.com",
+    "email_domain": "daytonasoft.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aaron",
+      "aaron aguilera",
+      "aaron.aguilera@daytonasoft.com",
+      "aguilera"
+    ]
+  },
+  {
+    "id": 7002603696,
+    "name": "Abraham Navarro",
+    "normalized_name": "abraham navarro",
+    "email": "navarro.abraham@ymail.com",
+    "email_domain": "ymail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "abraham",
+      "abraham navarro",
+      "navarro",
+      "navarro.abraham@ymail.com"
+    ]
+  },
+  {
+    "id": 7000999024,
+    "name": "Abraham Retana",
+    "normalized_name": "abraham retana",
+    "email": "aretana@araexportscr.com",
+    "email_domain": "araexportscr.com",
+    "department_ids": [
+      7000203702
+    ],
+    "department_names": [
+      "ARA"
+    ],
+    "active": true,
+    "aliases": [
+      "abraham",
+      "abraham retana",
+      "aretana@araexportscr.com",
+      "retana"
+    ]
+  },
+  {
+    "id": 7001893304,
+    "name": "Add.ad.email",
+    "normalized_name": "add.ad.email",
+    "email": "add.ad.email@sabre.com",
+    "email_domain": "sabre.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "add.ad.email",
+      "add.ad.email@sabre.com"
+    ]
+  },
+  {
+    "id": 7002479234,
+    "name": "Admin",
+    "normalized_name": "admin",
+    "email": "admin@easytek.freshservice.com",
+    "email_domain": "easytek.freshservice.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "admin",
+      "admin@easytek.freshservice.com"
+    ]
+  },
+  {
+    "id": 7001963542,
+    "name": "Admin",
+    "normalized_name": "admin",
+    "email": "admin@tamtravel.onmicrosoft.com",
+    "email_domain": "tamtravel.onmicrosoft.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "admin",
+      "admin@tamtravel.onmicrosoft.com"
+    ]
+  },
+  {
+    "id": 7002499712,
+    "name": "Admin Caffe Negroni",
+    "normalized_name": "admin caffe negroni",
+    "email": "admin@caffenegroni.com",
+    "email_domain": "caffenegroni.com",
+    "department_ids": [
+      7000253213
+    ],
+    "department_names": [
+      "Caffè Negroni"
+    ],
+    "active": true,
+    "aliases": [
+      "admin caffe",
+      "admin caffe negroni",
+      "admin@caffenegroni.com",
+      "negroni"
+    ]
+  },
+  {
+    "id": 7001030974,
+    "name": "Administración AmeliaRueda.com",
+    "normalized_name": "administración ameliarueda.com",
+    "email": "administracion@ameliarueda.com",
+    "email_domain": "ameliarueda.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "administracion@ameliarueda.com",
+      "administración",
+      "administración ameliarueda.com",
+      "ameliarueda.com"
+    ]
+  },
+  {
+    "id": 7001740628,
+    "name": "Administración DRP",
+    "normalized_name": "administración drp",
+    "email": "sruiz@drpgroup.cr",
+    "email_domain": "drpgroup.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "administración",
+      "administración drp",
+      "drp",
+      "sruiz@drpgroup.cr"
+    ]
+  },
+  {
+    "id": 7001888178,
+    "name": "Administración IO Design  Fabrics",
+    "normalized_name": "administración io design fabrics",
+    "email": "admin@indooroutdoorfabrics.com",
+    "email_domain": "indooroutdoorfabrics.com",
+    "department_ids": [
+      7000262391
+    ],
+    "department_names": [
+      "IO Fabrics"
+    ],
+    "active": true,
+    "aliases": [
+      "admin@indooroutdoorfabrics.com",
+      "administración",
+      "administración io design fabrics",
+      "io design fabrics"
+    ]
+  },
+  {
+    "id": 7002683020,
+    "name": "Administrativo AD Cubica",
+    "normalized_name": "administrativo ad cubica",
+    "email": "administrativo@adcubica.com",
+    "email_domain": "adcubica.com",
+    "department_ids": [
+      7000238861
+    ],
+    "department_names": [
+      "AD Cúbica"
+    ],
+    "active": true,
+    "aliases": [
+      "administrativo ad",
+      "administrativo ad cubica",
+      "administrativo@adcubica.com",
+      "cubica"
+    ]
+  },
+  {
+    "id": 7002087545,
+    "name": "Adobe",
+    "normalized_name": "adobe",
+    "email": "mail@mail.adobe.com",
+    "email_domain": "mail.adobe.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "adobe",
+      "mail@mail.adobe.com"
+    ]
+  },
+  {
+    "id": 7002346951,
+    "name": "Adriana Bonilla Solís",
+    "normalized_name": "adriana bonilla solís",
+    "email": "abonilla@arquitecturaydiseno.com",
+    "email_domain": "arquitecturaydiseno.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "abonilla@arquitecturaydiseno.com",
+      "adriana bonilla",
+      "adriana bonilla solís",
+      "solís"
+    ]
+  },
+  {
+    "id": 7001027920,
+    "name": "Adriana Castro",
+    "normalized_name": "adriana castro",
+    "email": "adriana.castro@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "adriana",
+      "adriana castro",
+      "adriana.castro@turvisa.co.cr",
+      "castro"
+    ]
+  },
+  {
+    "id": 7001951720,
+    "name": "Adriana Corrales",
+    "normalized_name": "adriana corrales",
+    "email": "adriana.corrales@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "adriana",
+      "adriana corrales",
+      "adriana.corrales@turvisa.co.cr",
+      "corrales"
+    ]
+  },
+  {
+    "id": 7002298677,
+    "name": "Adriana Naranjo",
+    "normalized_name": "adriana naranjo",
+    "email": "adi0929@hotmail.com",
+    "email_domain": "hotmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "adi0929@hotmail.com",
+      "adriana",
+      "adriana naranjo",
+      "naranjo"
+    ]
+  },
+  {
+    "id": 7001638623,
+    "name": "Adriana Quesada",
+    "normalized_name": "adriana quesada",
+    "email": "adriana.quesada@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "adriana",
+      "adriana quesada",
+      "adriana.quesada@lan.salvationarmy.org",
+      "quesada"
+    ]
+  },
+  {
+    "id": 7002072763,
+    "name": "Adriana Solano",
+    "normalized_name": "adriana solano",
+    "email": "asolano@crb-cr.com",
+    "email_domain": "crb-cr.com",
+    "department_ids": [
+      7000257226
+    ],
+    "department_names": [
+      "CRB Restaurants"
+    ],
+    "active": true,
+    "aliases": [
+      "adriana",
+      "adriana solano",
+      "asolano@crb-cr.com",
+      "solano"
+    ]
+  },
+  {
+    "id": 7002263578,
+    "name": "Adriana Solano Montero",
+    "normalized_name": "adriana solano montero",
+    "email": "adriana.solano@crb-cr.com",
+    "email_domain": "crb-cr.com",
+    "department_ids": [
+      7000257226
+    ],
+    "department_names": [
+      "CRB Restaurants"
+    ],
+    "active": true,
+    "aliases": [
+      "adriana",
+      "adriana solano montero",
+      "adriana.solano@crb-cr.com",
+      "solano montero"
+    ]
+  },
+  {
+    "id": 7001862228,
+    "name": "Adrián Esna",
+    "normalized_name": "adrián esna",
+    "email": "adrian.esna@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "adrian.esna@turvisa.co.cr",
+      "adrián",
+      "adrián esna",
+      "esna"
+    ]
+  },
+  {
+    "id": 7001638630,
+    "name": "Agripina Gochez",
+    "normalized_name": "agripina gochez",
+    "email": "agripina.gochez@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "agripina",
+      "agripina gochez",
+      "agripina.gochez@lan.salvationarmy.org",
+      "gochez"
+    ]
+  },
+  {
+    "id": 7002509706,
+    "name": "Aha Toro Centroamerica",
+    "normalized_name": "aha toro centroamerica",
+    "email": "ahatorocentroamerica@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aha toro",
+      "aha toro centroamerica",
+      "ahatorocentroamerica@gmail.com",
+      "centroamerica"
+    ]
+  },
+  {
+    "id": 7001439174,
+    "name": "Akexeyvap Akexeyvap",
+    "normalized_name": "akexeyvap akexeyvap",
+    "email": "byrdikalex@rambler.ru",
+    "email_domain": "rambler.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "akexeyvap",
+      "akexeyvap akexeyvap",
+      "byrdikalex@rambler.ru"
+    ]
+  },
+  {
+    "id": 7002280673,
+    "name": "Alberto Gonzalez Solera",
+    "normalized_name": "alberto gonzalez solera",
+    "email": "betogs4@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alberto",
+      "alberto gonzalez solera",
+      "betogs4@gmail.com",
+      "gonzalez solera"
+    ]
+  },
+  {
+    "id": 7001167383,
+    "name": "Albertovargas2407",
+    "normalized_name": "albertovargas2407",
+    "email": "albertovargas2407@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "albertovargas2407",
+      "albertovargas2407@gmail.com"
+    ]
+  },
+  {
+    "id": 7001151389,
+    "name": "Ale Aguilar",
+    "normalized_name": "ale aguilar",
+    "email": "aleaguilar71@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aguilar",
+      "ale",
+      "ale aguilar",
+      "aleaguilar71@gmail.com"
+    ]
+  },
+  {
+    "id": 7001458925,
+    "name": "Aledorabiash Aledorabiash",
+    "normalized_name": "aledorabiash aledorabiash",
+    "email": "mbefvcit1979@qj.goaglie.com",
+    "email_domain": "qj.goaglie.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aledorabiash",
+      "aledorabiash aledorabiash",
+      "mbefvcit1979@qj.goaglie.com"
+    ]
+  },
+  {
+    "id": 7000998985,
+    "name": "Alejandra Aguilar",
+    "normalized_name": "alejandra aguilar",
+    "email": "aleaguilar@crmagicdmc.com",
+    "email_domain": "crmagicdmc.com",
+    "department_ids": [
+      7000203699
+    ],
+    "department_names": [
+      "CR Magic DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "aguilar",
+      "aleaguilar@crmagicdmc.com",
+      "alejandra",
+      "alejandra aguilar"
+    ]
+  },
+  {
+    "id": 7001431496,
+    "name": "Alejandra Aguilar - CR Magic DMC",
+    "normalized_name": "alejandra aguilar - cr magic dmc",
+    "email": "sales.ca@wmforum.org",
+    "email_domain": "wmforum.org",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alejandra aguilar - cr magic dmc",
+      "sales.ca@wmforum.org"
+    ]
+  },
+  {
+    "id": 7001671844,
+    "name": "Alejandra Aguilar - Magic Traveling",
+    "normalized_name": "alejandra aguilar - magic traveling",
+    "email": "alejandra@magictraveling.com",
+    "email_domain": "magictraveling.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aguilar - magic traveling",
+      "alejandra",
+      "alejandra aguilar - magic traveling",
+      "alejandra@magictraveling.com"
+    ]
+  },
+  {
+    "id": 7002065191,
+    "name": "Alejandra Arias Oreamuno",
+    "normalized_name": "alejandra arias oreamuno",
+    "email": "aarias@luminet.cr",
+    "email_domain": "luminet.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aarias@luminet.cr",
+      "alejandra arias",
+      "alejandra arias oreamuno",
+      "oreamuno"
+    ]
+  },
+  {
+    "id": 7001027923,
+    "name": "Alejandra Chacón",
+    "normalized_name": "alejandra chacón",
+    "email": "alejandra.chacon@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "alejandra",
+      "alejandra chacón",
+      "alejandra.chacon@turvisa.co.cr",
+      "chacón"
+    ]
+  },
+  {
+    "id": 7002492359,
+    "name": "Alejandro",
+    "normalized_name": "alejandro",
+    "email": "alejandro@exclusivecr.com",
+    "email_domain": "exclusivecr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alejandro",
+      "alejandro@exclusivecr.com"
+    ]
+  },
+  {
+    "id": 7002499030,
+    "name": "Alejandro Arce Alpízar",
+    "normalized_name": "alejandro arce alpízar",
+    "email": "aarce@adcubica.com",
+    "email_domain": "adcubica.com",
+    "department_ids": [
+      7000238861
+    ],
+    "department_names": [
+      "AD Cúbica"
+    ],
+    "active": true,
+    "aliases": [
+      "aarce@adcubica.com",
+      "alejandro arce",
+      "alejandro arce alpízar",
+      "alpízar"
+    ]
+  },
+  {
+    "id": 7001423029,
+    "name": "Alejandro Barona",
+    "normalized_name": "alejandro barona",
+    "email": "abarona@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "abarona@esteticcarscr.com",
+      "alejandro",
+      "alejandro barona",
+      "barona"
+    ]
+  },
+  {
+    "id": 7001129061,
+    "name": "Alejandro Barona",
+    "normalized_name": "alejandro barona",
+    "email": "alejandro.barona@icloud.com",
+    "email_domain": "icloud.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "alejandro",
+      "alejandro barona",
+      "alejandro.barona@icloud.com",
+      "barona"
+    ]
+  },
+  {
+    "id": 7001904773,
+    "name": "Alejandro Granados",
+    "normalized_name": "alejandro granados",
+    "email": "agranados@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "agranados@icc.co.cr",
+      "alejandro",
+      "alejandro granados",
+      "granados"
+    ]
+  },
+  {
+    "id": 7001159313,
+    "name": "Alejandro Montalvo",
+    "normalized_name": "alejandro montalvo",
+    "email": "alejandro.montalvo@booktofly.com.co",
+    "email_domain": "booktofly.com.co",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alejandro",
+      "alejandro montalvo",
+      "alejandro.montalvo@booktofly.com.co",
+      "montalvo"
+    ]
+  },
+  {
+    "id": 7001047512,
+    "name": "Alejandro Rueda",
+    "normalized_name": "alejandro rueda",
+    "email": "bocharueda@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "alejandro",
+      "alejandro rueda",
+      "bocharueda@gmail.com",
+      "rueda"
+    ]
+  },
+  {
+    "id": 7002347883,
+    "name": "Alerta",
+    "normalized_name": "alerta",
+    "email": "alerta@baccredomatic.com",
+    "email_domain": "baccredomatic.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alerta",
+      "alerta@baccredomatic.com"
+    ]
+  },
+  {
+    "id": 7001429237,
+    "name": "AlertasScotiabank@scotiabank.com",
+    "normalized_name": "alertasscotiabank@scotiabank.com",
+    "email": "alertasscotiabank@scotiabank.com",
+    "email_domain": "scotiabank.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alertasscotiabank@scotiabank.com"
+    ]
+  },
+  {
+    "id": 7001244612,
+    "name": "Alex Bonilla",
+    "normalized_name": "alex bonilla",
+    "email": "alex@costaricadmc.com",
+    "email_domain": "costaricadmc.com",
+    "department_ids": [
+      7000204416
+    ],
+    "department_names": [
+      "Costa Rica DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "alex",
+      "alex bonilla",
+      "alex@costaricadmc.com",
+      "bonilla"
+    ]
+  },
+  {
+    "id": 7002072761,
+    "name": "Alex Oviedo",
+    "normalized_name": "alex oviedo",
+    "email": "aoviedo@crb-cr.com",
+    "email_domain": "crb-cr.com",
+    "department_ids": [
+      7000257226
+    ],
+    "department_names": [
+      "CRB Restaurants"
+    ],
+    "active": true,
+    "aliases": [
+      "alex",
+      "alex oviedo",
+      "aoviedo@crb-cr.com",
+      "oviedo"
+    ]
+  },
+  {
+    "id": 7001556380,
+    "name": "AlexDiach AlexDiach",
+    "normalized_name": "alexdiach alexdiach",
+    "email": "aleksandr4w0bo@mail.ru",
+    "email_domain": "mail.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aleksandr4w0bo@mail.ru",
+      "alexdiach",
+      "alexdiach alexdiach"
+    ]
+  },
+  {
+    "id": 7002014637,
+    "name": "AlexanVok AlexanVok",
+    "normalized_name": "alexanvok alexanvok",
+    "email": "oleg.bryncalov@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alexanvok",
+      "alexanvok alexanvok",
+      "oleg.bryncalov@gmail.com"
+    ]
+  },
+  {
+    "id": 7001285997,
+    "name": "Alexander Solano",
+    "normalized_name": "alexander solano",
+    "email": "administrativo@daytonasoft.com",
+    "email_domain": "daytonasoft.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "administrativo@daytonasoft.com",
+      "alexander",
+      "alexander solano",
+      "solano"
+    ]
+  },
+  {
+    "id": 7000071792,
+    "name": "Alexander Vargas",
+    "normalized_name": "alexander vargas",
+    "email": "alexvargas@gip.cr",
+    "email_domain": "gip.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "alexander",
+      "alexander vargas",
+      "alexvargas@gip.cr",
+      "vargas"
+    ]
+  },
+  {
+    "id": 7000071802,
+    "name": "Alexander Villavicencio",
+    "normalized_name": "alexander villavicencio",
+    "email": "avillavicencio@arquitecturaydiseno.com",
+    "email_domain": "arquitecturaydiseno.com",
+    "department_ids": [
+      7000203698
+    ],
+    "department_names": [
+      "AYD"
+    ],
+    "active": true,
+    "aliases": [
+      "alexander",
+      "alexander villavicencio",
+      "avillavicencio@arquitecturaydiseno.com",
+      "villavicencio"
+    ]
+  },
+  {
+    "id": 7001511547,
+    "name": "Alexander Zúñiga",
+    "normalized_name": "alexander zúñiga",
+    "email": "alexander.zuniga@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alexander",
+      "alexander zúñiga",
+      "alexander.zuniga@lan.salvationarmy.org",
+      "zúñiga"
+    ]
+  },
+  {
+    "id": 7001165742,
+    "name": "Alexandra Hernández",
+    "normalized_name": "alexandra hernández",
+    "email": "alexandra@luminet.cr",
+    "email_domain": "luminet.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alexandra",
+      "alexandra hernández",
+      "alexandra@luminet.cr",
+      "hernández"
+    ]
+  },
+  {
+    "id": 7001997374,
+    "name": "Alexia Salas",
+    "normalized_name": "alexia salas",
+    "email": "alexia.salas@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "alexia",
+      "alexia salas",
+      "alexia.salas@shortcuts.la",
+      "salas"
+    ]
+  },
+  {
+    "id": 7001578030,
+    "name": "Alexlen Alexlen",
+    "normalized_name": "alexlen alexlen",
+    "email": "myhomesoeasydogcatmytabl@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alexlen",
+      "alexlen alexlen",
+      "myhomesoeasydogcatmytabl@gmail.com"
+    ]
+  },
+  {
+    "id": 7002279987,
+    "name": "Alfonso Calderón",
+    "normalized_name": "alfonso calderón",
+    "email": "alfonso@cycingenieria.net",
+    "email_domain": "cycingenieria.net",
+    "department_ids": [
+      7000238495
+    ],
+    "department_names": [
+      "CyC Ingeniería"
+    ],
+    "active": true,
+    "aliases": [
+      "alfonso",
+      "alfonso calderón",
+      "alfonso@cycingenieria.net",
+      "calderón"
+    ]
+  },
+  {
+    "id": 7002249576,
+    "name": "Alfonso Ramos",
+    "normalized_name": "alfonso ramos",
+    "email": "aramos@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "alfonso",
+      "alfonso ramos",
+      "aramos@icc.co.cr",
+      "ramos"
+    ]
+  },
+  {
+    "id": 7001503620,
+    "name": "Alfonsowal Alfonsowal",
+    "normalized_name": "alfonsowal alfonsowal",
+    "email": "anisimovaveronika@mail.com",
+    "email_domain": "mail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alfonsowal",
+      "alfonsowal alfonsowal",
+      "anisimovaveronika@mail.com"
+    ]
+  },
+  {
+    "id": 7002040366,
+    "name": "Alison Zeas",
+    "normalized_name": "alison zeas",
+    "email": "alison.zeas@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "alison",
+      "alison zeas",
+      "alison.zeas@shortcuts.la",
+      "zeas"
+    ]
+  },
+  {
+    "id": 7001975897,
+    "name": "Allan Bermudez",
+    "normalized_name": "allan bermudez",
+    "email": "allanb@loymark.com",
+    "email_domain": "loymark.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "allan",
+      "allan bermudez",
+      "allanb@loymark.com",
+      "bermudez"
+    ]
+  },
+  {
+    "id": 7002535058,
+    "name": "Allison Delgado",
+    "normalized_name": "allison delgado",
+    "email": "ventas7@vidriosbrenes.com",
+    "email_domain": "vidriosbrenes.com",
+    "department_ids": [
+      7000268551
+    ],
+    "department_names": [
+      "Vidrios Brenes"
+    ],
+    "active": true,
+    "aliases": [
+      "allison",
+      "allison delgado",
+      "delgado",
+      "ventas7@vidriosbrenes.com"
+    ]
+  },
+  {
+    "id": 7000184812,
+    "name": "Alquileres AVAL",
+    "normalized_name": "alquileres aval",
+    "email": "alquileres@avalrental.com",
+    "email_domain": "avalrental.com",
+    "department_ids": [
+      7000203701
+    ],
+    "department_names": [
+      "AVAL"
+    ],
+    "active": true,
+    "aliases": [
+      "alquileres",
+      "alquileres aval",
+      "alquileres@avalrental.com",
+      "aval"
+    ]
+  },
+  {
+    "id": 7001619508,
+    "name": "AltonBenue AltonBenue",
+    "normalized_name": "altonbenue altonbenue",
+    "email": "m.simov@denis.enersets.com",
+    "email_domain": "denis.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "altonbenue",
+      "altonbenue altonbenue",
+      "m.simov@denis.enersets.com"
+    ]
+  },
+  {
+    "id": 7002279988,
+    "name": "Alvaro Cerdas",
+    "normalized_name": "alvaro cerdas",
+    "email": "alvaro@cycingenieria.net",
+    "email_domain": "cycingenieria.net",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alvaro",
+      "alvaro cerdas",
+      "alvaro@cycingenieria.net",
+      "cerdas"
+    ]
+  },
+  {
+    "id": 7001442833,
+    "name": "Alvarovab Alvarovab",
+    "normalized_name": "alvarovab alvarovab",
+    "email": "baranovoleg88@rambler.ru",
+    "email_domain": "rambler.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alvarovab",
+      "alvarovab alvarovab",
+      "baranovoleg88@rambler.ru"
+    ]
+  },
+  {
+    "id": 7001815111,
+    "name": "Amado",
+    "normalized_name": "amado",
+    "email": "amado@stateracr.com",
+    "email_domain": "stateracr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "amado",
+      "amado@stateracr.com"
+    ]
+  },
+  {
+    "id": 7001105747,
+    "name": "Amado Sánchez Harding",
+    "normalized_name": "amado sánchez harding",
+    "email": "ash@corderoabogados.com",
+    "email_domain": "corderoabogados.com",
+    "department_ids": [
+      7000041157,
+      7000212519
+    ],
+    "department_names": [
+      "Clientes easyTEK",
+      "Statera Outsourcing"
+    ],
+    "active": true,
+    "aliases": [
+      "amado sánchez",
+      "amado sánchez harding",
+      "ash@corderoabogados.com",
+      "harding"
+    ]
+  },
+  {
+    "id": 7001920578,
+    "name": "Amazon Web Services",
+    "normalized_name": "amazon web services",
+    "email": "aws-verification@amazon.com",
+    "email_domain": "amazon.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "amazon web",
+      "amazon web services",
+      "aws-verification@amazon.com",
+      "services"
+    ]
+  },
+  {
+    "id": 7001920570,
+    "name": "Amazon Web Services",
+    "normalized_name": "amazon web services",
+    "email": "no-reply@amazonaws.com",
+    "email_domain": "amazonaws.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "amazon web",
+      "amazon web services",
+      "no-reply@amazonaws.com",
+      "services"
+    ]
+  },
+  {
+    "id": 7001920571,
+    "name": "Amazon.com",
+    "normalized_name": "amazon.com",
+    "email": "nobody@bounces.amazon.com",
+    "email_domain": "bounces.amazon.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "amazon.com",
+      "nobody@bounces.amazon.com"
+    ]
+  },
+  {
+    "id": 7001030975,
+    "name": "Amelia Rueda",
+    "normalized_name": "amelia rueda",
+    "email": "amelia@ameliarueda.com",
+    "email_domain": "ameliarueda.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "amelia",
+      "amelia rueda",
+      "amelia@ameliarueda.com",
+      "rueda"
+    ]
+  },
+  {
+    "id": 7001030985,
+    "name": "Amelia Rueda",
+    "normalized_name": "amelia rueda",
+    "email": "arueda@grupoardigital.com",
+    "email_domain": "grupoardigital.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "amelia",
+      "amelia rueda",
+      "arueda@grupoardigital.com",
+      "rueda"
+    ]
+  },
+  {
+    "id": 7001047741,
+    "name": "Ana Maria Salas",
+    "normalized_name": "ana maria salas",
+    "email": "anamaria@morerach.com",
+    "email_domain": "morerach.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "ana maria",
+      "ana maria salas",
+      "anamaria@morerach.com",
+      "salas"
+    ]
+  },
+  {
+    "id": 7001028007,
+    "name": "Ana María Jara",
+    "normalized_name": "ana maría jara",
+    "email": "ajara@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "ajara@icc.co.cr",
+      "ana maría",
+      "ana maría jara",
+      "jara"
+    ]
+  },
+  {
+    "id": 7001638622,
+    "name": "Ana Molina",
+    "normalized_name": "ana molina",
+    "email": "ana.molina@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "ana",
+      "ana molina",
+      "ana.molina@lan.salvationarmy.org",
+      "molina"
+    ]
+  },
+  {
+    "id": 7001218844,
+    "name": "Ana Urbina",
+    "normalized_name": "ana urbina",
+    "email": "ana.urbina@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "ana",
+      "ana urbina",
+      "ana.urbina@turvisa.co.cr",
+      "urbina"
+    ]
+  },
+  {
+    "id": 7001052157,
+    "name": "Anamaría Montealegre",
+    "normalized_name": "anamaría montealegre",
+    "email": "anamariamonfer@yahoo.com",
+    "email_domain": "yahoo.com",
+    "department_ids": [
+      7000041157,
+      7000235761
+    ],
+    "department_names": [
+      "Ana Maria Montealegre",
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "anamariamonfer@yahoo.com",
+      "anamaría",
+      "anamaría montealegre",
+      "montealegre"
+    ]
+  },
+  {
+    "id": 7002695315,
+    "name": "Anaranjo",
+    "normalized_name": "anaranjo",
+    "email": "anaranjo@rentacubica.cr",
+    "email_domain": "rentacubica.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anaranjo",
+      "anaranjo@rentacubica.cr"
+    ]
+  },
+  {
+    "id": 7002076709,
+    "name": "Andrea Amigo",
+    "normalized_name": "andrea amigo",
+    "email": "aamigo@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "aamigo@icc.co.cr",
+      "amigo",
+      "andrea",
+      "andrea amigo"
+    ]
+  },
+  {
+    "id": 7001862401,
+    "name": "Andrea Broutin",
+    "normalized_name": "andrea broutin",
+    "email": "andrea.broutin@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea broutin",
+      "andrea.broutin@shortcuts.la",
+      "broutin"
+    ]
+  },
+  {
+    "id": 7001979748,
+    "name": "Andrea Camacho",
+    "normalized_name": "andrea camacho",
+    "email": "andreacamachos10@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000252450
+    ],
+    "department_names": [
+      "Entrecortes Mafad"
+    ],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea camacho",
+      "andreacamachos10@gmail.com",
+      "camacho"
+    ]
+  },
+  {
+    "id": 7001638644,
+    "name": "Andrea Cañas",
+    "normalized_name": "andrea cañas",
+    "email": "andrea.canas@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea cañas",
+      "andrea.canas@lan.salvationarmy.org",
+      "cañas"
+    ]
+  },
+  {
+    "id": 7001481562,
+    "name": "Andrea Chaves",
+    "normalized_name": "andrea chaves",
+    "email": "andrea@gglservices.net",
+    "email_domain": "gglservices.net",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "andrea",
+      "andrea chaves",
+      "andrea@gglservices.net",
+      "chaves"
+    ]
+  },
+  {
+    "id": 7001883283,
+    "name": "Andrea Chávez Hernandez",
+    "normalized_name": "andrea chávez hernandez",
+    "email": "andreachavezhernandez60@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea chávez",
+      "andrea chávez hernandez",
+      "andreachavezhernandez60@gmail.com",
+      "hernandez"
+    ]
+  },
+  {
+    "id": 7002247068,
+    "name": "Andrea Hernández",
+    "normalized_name": "andrea hernández",
+    "email": "andrea.hernandez@bold-production.com",
+    "email_domain": "bold-production.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea hernández",
+      "andrea.hernandez@bold-production.com",
+      "hernández"
+    ]
+  },
+  {
+    "id": 7001122180,
+    "name": "Andrea Lorenzo",
+    "normalized_name": "andrea lorenzo",
+    "email": "andrea.lorenzo@sabre.com",
+    "email_domain": "sabre.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea lorenzo",
+      "andrea.lorenzo@sabre.com",
+      "lorenzo"
+    ]
+  },
+  {
+    "id": 7001885137,
+    "name": "Andrea Segura",
+    "normalized_name": "andrea segura",
+    "email": "andrea@costaricadmc.com",
+    "email_domain": "costaricadmc.com",
+    "department_ids": [
+      7000204416
+    ],
+    "department_names": [
+      "Costa Rica DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea segura",
+      "andrea@costaricadmc.com",
+      "segura"
+    ]
+  },
+  {
+    "id": 7001081163,
+    "name": "Andrea Vargas",
+    "normalized_name": "andrea vargas",
+    "email": "avargas@cspc.co.cr",
+    "email_domain": "cspc.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea vargas",
+      "avargas@cspc.co.cr",
+      "vargas"
+    ]
+  },
+  {
+    "id": 7002247067,
+    "name": "Andrea.broutin",
+    "normalized_name": "andrea.broutin",
+    "email": "andrea.broutin@bold-production.com",
+    "email_domain": "bold-production.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea.broutin",
+      "andrea.broutin@bold-production.com"
+    ]
+  },
+  {
+    "id": 7002013580,
+    "name": "Andreatup Andreatup",
+    "normalized_name": "andreatup andreatup",
+    "email": "neexyvoffoemync817@aol.com",
+    "email_domain": "aol.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andreatup",
+      "andreatup andreatup",
+      "neexyvoffoemync817@aol.com"
+    ]
+  },
+  {
+    "id": 7002025480,
+    "name": "Andres CRDMC",
+    "normalized_name": "andres crdmc",
+    "email": "operationsadmin@costaricadmc.com",
+    "email_domain": "costaricadmc.com",
+    "department_ids": [
+      7000204416
+    ],
+    "department_names": [
+      "Costa Rica DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "andres",
+      "andres crdmc",
+      "crdmc",
+      "operationsadmin@costaricadmc.com"
+    ]
+  },
+  {
+    "id": 7001513122,
+    "name": "Andres Castro",
+    "normalized_name": "andres castro",
+    "email": "acastro@amstardmc.com",
+    "email_domain": "amstardmc.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "acastro@amstardmc.com",
+      "andres",
+      "andres castro",
+      "castro"
+    ]
+  },
+  {
+    "id": 7001172529,
+    "name": "Andres Trapp",
+    "normalized_name": "andres trapp",
+    "email": "andres@trapphotelmonteverde.com",
+    "email_domain": "trapphotelmonteverde.com",
+    "department_ids": [
+      7000041157,
+      7000247172
+    ],
+    "department_names": [
+      "Clientes easyTEK",
+      "Trapp Hotel Monteverde"
+    ],
+    "active": true,
+    "aliases": [
+      "andres",
+      "andres trapp",
+      "andres@trapphotelmonteverde.com",
+      "trapp"
+    ]
+  },
+  {
+    "id": 7001863553,
+    "name": "Andrewbup Andrewbup",
+    "normalized_name": "andrewbup andrewbup",
+    "email": "vlad@cream.in.ua",
+    "email_domain": "cream.in.ua",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrewbup",
+      "andrewbup andrewbup",
+      "vlad@cream.in.ua"
+    ]
+  },
+  {
+    "id": 7001481489,
+    "name": "Andrewnat Andrewnat",
+    "normalized_name": "andrewnat andrewnat",
+    "email": "p.grigorin@denis.enersets.com",
+    "email_domain": "denis.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrewnat",
+      "andrewnat andrewnat",
+      "p.grigorin@denis.enersets.com"
+    ]
+  },
+  {
+    "id": 7001129766,
+    "name": "Andrey Alexander Salazar Alfaro",
+    "normalized_name": "andrey alexander salazar alfaro",
+    "email": "andrey@stateracr.com",
+    "email_domain": "stateracr.com",
+    "department_ids": [
+      7000212519
+    ],
+    "department_names": [
+      "Statera Outsourcing"
+    ],
+    "active": true,
+    "aliases": [
+      "alfaro",
+      "andrey alexander salazar",
+      "andrey alexander salazar alfaro",
+      "andrey@stateracr.com"
+    ]
+  },
+  {
+    "id": 7001835471,
+    "name": "Andrey Salazar",
+    "normalized_name": "andrey salazar",
+    "email": "andrey@exclusivecr.com",
+    "email_domain": "exclusivecr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrey",
+      "andrey salazar",
+      "andrey@exclusivecr.com",
+      "salazar"
+    ]
+  },
+  {
+    "id": 7002265586,
+    "name": "Andrina.castro",
+    "normalized_name": "andrina.castro",
+    "email": "andrina.castro@agrifoodcr.com",
+    "email_domain": "agrifoodcr.com",
+    "department_ids": [
+      7000254008
+    ],
+    "department_names": [
+      "Soluciones AgTech"
+    ],
+    "active": true,
+    "aliases": [
+      "andrina.castro",
+      "andrina.castro@agrifoodcr.com"
+    ]
+  },
+  {
+    "id": 7001726718,
+    "name": "Andrés Alfaro",
+    "normalized_name": "andrés alfaro",
+    "email": "aalfaro@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "aalfaro@icc.co.cr",
+      "alfaro",
+      "andrés",
+      "andrés alfaro"
+    ]
+  },
+  {
+    "id": 7002020983,
+    "name": "Andrés Bolaños Víquez",
+    "normalized_name": "andrés bolaños víquez",
+    "email": "abolanos@luminet.cr",
+    "email_domain": "luminet.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "abolanos@luminet.cr",
+      "andrés bolaños",
+      "andrés bolaños víquez",
+      "víquez"
+    ]
+  },
+  {
+    "id": 7001291633,
+    "name": "Andrés Miranda",
+    "normalized_name": "andrés miranda",
+    "email": "andresmiranda@slaboncr.com",
+    "email_domain": "slaboncr.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "andresmiranda@slaboncr.com",
+      "andrés",
+      "andrés miranda",
+      "miranda"
+    ]
+  },
+  {
+    "id": 7001961213,
+    "name": "Andrés Pérez",
+    "normalized_name": "andrés pérez",
+    "email": "aperez@grupopurdy.com",
+    "email_domain": "grupopurdy.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrés",
+      "andrés pérez",
+      "aperez@grupopurdy.com",
+      "pérez"
+    ]
+  },
+  {
+    "id": 7001380484,
+    "name": "Andrés Pérez",
+    "normalized_name": "andrés pérez",
+    "email": "aperez@purdymo.com",
+    "email_domain": "purdymo.com",
+    "department_ids": [
+      7000235341
+    ],
+    "department_names": [
+      "Purdy Motor"
+    ],
+    "active": true,
+    "aliases": [
+      "andrés",
+      "andrés pérez",
+      "aperez@purdymo.com",
+      "pérez"
+    ]
+  },
+  {
+    "id": 7001629895,
+    "name": "Angelica León",
+    "normalized_name": "angelica león",
+    "email": "angelica@stateracr.com",
+    "email_domain": "stateracr.com",
+    "department_ids": [
+      7000212519
+    ],
+    "department_names": [
+      "Statera Outsourcing"
+    ],
+    "active": true,
+    "aliases": [
+      "angelica",
+      "angelica león",
+      "angelica@stateracr.com",
+      "león"
+    ]
+  },
+  {
+    "id": 7001244964,
+    "name": "Anibal -",
+    "normalized_name": "anibal -",
+    "email": "anibal@vivogaming.com",
+    "email_domain": "vivogaming.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anibal -",
+      "anibal@vivogaming.com"
+    ]
+  },
+  {
+    "id": 7001314716,
+    "name": "Anna from Freshworks",
+    "normalized_name": "anna from freshworks",
+    "email": "community@freshworks.com",
+    "email_domain": "freshworks.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anna from",
+      "anna from freshworks",
+      "community@freshworks.com",
+      "freshworks"
+    ]
+  },
+  {
+    "id": 7002419561,
+    "name": "AnnelNap AnnelNap",
+    "normalized_name": "annelnap annelnap",
+    "email": "teccilla@fvmaily.com",
+    "email_domain": "fvmaily.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "annelnap",
+      "annelnap annelnap",
+      "teccilla@fvmaily.com"
+    ]
+  },
+  {
+    "id": 7002008648,
+    "name": "Annelie Hoepker",
+    "normalized_name": "annelie hoepker",
+    "email": "ahoepker@ecomorfosiscr.com",
+    "email_domain": "ecomorfosiscr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "ahoepker@ecomorfosiscr.com",
+      "annelie",
+      "annelie hoepker",
+      "hoepker"
+    ]
+  },
+  {
+    "id": 7001465018,
+    "name": "Annelie Hoepker",
+    "normalized_name": "annelie hoepker",
+    "email": "hoepker@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "annelie",
+      "annelie hoepker",
+      "hoepker",
+      "hoepker@gmail.com"
+    ]
+  },
+  {
+    "id": 7001184464,
+    "name": "Annie Rojas",
+    "normalized_name": "annie rojas",
+    "email": "annierojas@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "annie",
+      "annie rojas",
+      "annierojas@gmail.com",
+      "rojas"
+    ]
+  },
+  {
+    "id": 7001407951,
+    "name": "Antares Digital",
+    "normalized_name": "antares digital",
+    "email": "info@antaresdigitalcr.com",
+    "email_domain": "antaresdigitalcr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "antares",
+      "antares digital",
+      "digital",
+      "info@antaresdigitalcr.com"
+    ]
+  },
+  {
+    "id": 7001835407,
+    "name": "Anthony Fernández",
+    "normalized_name": "anthony fernández",
+    "email": "afernandez@codisa.com",
+    "email_domain": "codisa.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "afernandez@codisa.com",
+      "anthony",
+      "anthony fernández",
+      "fernández"
+    ]
+  },
+  {
+    "id": 7001027926,
+    "name": "Anthony González",
+    "normalized_name": "anthony gonzález",
+    "email": "anthony.gonzalez@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "anthony",
+      "anthony gonzález",
+      "anthony.gonzalez@turvisa.co.cr",
+      "gonzález"
+    ]
+  },
+  {
+    "id": 7002373913,
+    "name": "AnthonyAgoms AnthonyAgoms",
+    "normalized_name": "anthonyagoms anthonyagoms",
+    "email": "catch@sit.codepb.com",
+    "email_domain": "sit.codepb.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anthonyagoms",
+      "anthonyagoms anthonyagoms",
+      "catch@sit.codepb.com"
+    ]
+  },
+  {
+    "id": 7001916866,
+    "name": "AnthonyCaf AnthonyCaf",
+    "normalized_name": "anthonycaf anthonycaf",
+    "email": "snegirevakristina247@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anthonycaf",
+      "anthonycaf anthonycaf",
+      "snegirevakristina247@gmail.com"
+    ]
+  },
+  {
+    "id": 7001259982,
+    "name": "Antonio Esna",
+    "normalized_name": "antonio esna",
+    "email": "antonio.esna@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "antonio",
+      "antonio esna",
+      "antonio.esna@turvisa.co.cr",
+      "esna"
+    ]
+  },
+  {
+    "id": 7001908778,
+    "name": "Antonio Incera",
+    "normalized_name": "antonio incera",
+    "email": "aincera@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "aincera@icc.co.cr",
+      "antonio",
+      "antonio incera",
+      "incera"
+    ]
+  },
+  {
+    "id": 7001030986,
+    "name": "Antonio Jiménez",
+    "normalized_name": "antonio jiménez",
+    "email": "antonio@grupoardigital.com",
+    "email_domain": "grupoardigital.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "antonio",
+      "antonio jiménez",
+      "antonio@grupoardigital.com",
+      "jiménez"
+    ]
+  },
+  {
+    "id": 7001182483,
+    "name": "Aníbal Barrantes",
+    "normalized_name": "aníbal barrantes",
+    "email": "anibal.barrantes@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "anibal.barrantes@turvisa.co.cr",
+      "aníbal",
+      "aníbal barrantes",
+      "barrantes"
+    ]
+  },
+  {
+    "id": 7002621803,
+    "name": "Apple",
+    "normalized_name": "apple",
+    "email": "no_reply@email.apple.com",
+    "email_domain": "email.apple.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "apple",
+      "no_reply@email.apple.com"
+    ]
+  },
+  {
+    "id": 7001936051,
+    "name": "Appleid_mxes",
+    "normalized_name": "appleid_mxes",
+    "email": "appleid_mxes@email.apple.com",
+    "email_domain": "email.apple.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "appleid_mxes",
+      "appleid_mxes@email.apple.com"
+    ]
+  },
+  {
+    "id": 7001106796,
+    "name": "Archivo Marlon Padilla",
+    "normalized_name": "archivo marlon padilla",
+    "email": "marlon@stateracr.com",
+    "email_domain": "stateracr.com",
+    "department_ids": [
+      7000212519
+    ],
+    "department_names": [
+      "Statera Outsourcing"
+    ],
+    "active": true,
+    "aliases": [
+      "archivo marlon",
+      "archivo marlon padilla",
+      "marlon@stateracr.com",
+      "padilla"
+    ]
+  },
+  {
+    "id": 7001129056,
+    "name": "Arianna",
+    "normalized_name": "arianna",
+    "email": "arianna@miasri.xyz",
+    "email_domain": "miasri.xyz",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "arianna",
+      "arianna@miasri.xyz"
+    ]
+  },
+  {
+    "id": 7001855786,
+    "name": "Arlin Vallecillos - CR Magic DMC",
+    "normalized_name": "arlin vallecillos - cr magic dmc",
+    "email": "avallecillos@crmagicdmc.com",
+    "email_domain": "crmagicdmc.com",
+    "department_ids": [
+      7000203699
+    ],
+    "department_names": [
+      "CR Magic DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "arlin vallecillos - cr magic dmc",
+      "avallecillos@crmagicdmc.com"
+    ]
+  },
+  {
+    "id": 7002548325,
+    "name": "Armando Blanco",
+    "normalized_name": "armando blanco",
+    "email": "armando.blanco@picoegallo.com",
+    "email_domain": "picoegallo.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "armando",
+      "armando blanco",
+      "armando.blanco@picoegallo.com",
+      "blanco"
+    ]
+  },
+  {
+    "id": 7001886032,
+    "name": "Armando Fuentes",
+    "normalized_name": "armando fuentes",
+    "email": "afuentes@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "afuentes@icc.co.cr",
+      "armando",
+      "armando fuentes",
+      "fuentes"
+    ]
+  },
+  {
+    "id": 7001027927,
+    "name": "Armando Porras",
+    "normalized_name": "armando porras",
+    "email": "aporras@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "aporras@turvisa.co.cr",
+      "armando",
+      "armando porras",
+      "porras"
+    ]
+  },
+  {
+    "id": 7001747021,
+    "name": "Arnoldget Arnoldget",
+    "normalized_name": "arnoldget arnoldget",
+    "email": "mikrw@yandex.com",
+    "email_domain": "yandex.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "arnoldget",
+      "arnoldget arnoldget",
+      "mikrw@yandex.com"
+    ]
+  },
+  {
+    "id": 7001084596,
+    "name": "Arrendamiento PC Central",
+    "normalized_name": "arrendamiento pc central",
+    "email": "arrendamiento@cspc.co.cr",
+    "email_domain": "cspc.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "arrendamiento pc",
+      "arrendamiento pc central",
+      "arrendamiento@cspc.co.cr",
+      "central"
+    ]
+  },
+  {
+    "id": 7001987850,
+    "name": "Arturo Castro",
+    "normalized_name": "arturo castro",
+    "email": "arturo.castro@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "arturo",
+      "arturo castro",
+      "arturo.castro@turvisa.co.cr",
+      "castro"
+    ]
+  },
+  {
+    "id": 7000999041,
+    "name": "Arturo Montealegre",
+    "normalized_name": "arturo montealegre",
+    "email": "arturomontealegre@hotmail.com",
+    "email_domain": "hotmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "arturo",
+      "arturo montealegre",
+      "arturomontealegre@hotmail.com",
+      "montealegre"
+    ]
+  },
+  {
+    "id": 7000944907,
+    "name": "Arturo Moscoso",
+    "normalized_name": "arturo moscoso",
+    "email": "ingenieria@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "arturo",
+      "arturo moscoso",
+      "ingenieria@esteticcarscr.com",
+      "moscoso"
+    ]
+  },
+  {
+    "id": 7001332287,
+    "name": "Ashley Solano",
+    "normalized_name": "ashley solano",
+    "email": "solanola@medusa-cr.com",
+    "email_domain": "medusa-cr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "ashley",
+      "ashley solano",
+      "solano",
+      "solanola@medusa-cr.com"
+    ]
+  },
+  {
+    "id": 7001045101,
+    "name": "Asociación Canófila Costarricense",
+    "normalized_name": "asociación canófila costarricense",
+    "email": "costaricaacccr@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "asociación canófila",
+      "asociación canófila costarricense",
+      "costaricaacccr@gmail.com",
+      "costarricense"
+    ]
+  },
+  {
+    "id": 7001093239,
+    "name": "Asociación Gerontologica Curridabat",
+    "normalized_name": "asociación gerontologica curridabat",
+    "email": "asoc.geront.curridabat@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "asoc.geront.curridabat@gmail.com",
+      "asociación gerontologica",
+      "asociación gerontologica curridabat",
+      "curridabat"
+    ]
+  },
+  {
+    "id": 7001937883,
+    "name": "Associate.helpdesk",
+    "normalized_name": "associate.helpdesk",
+    "email": "associate.helpdesk@sabre.com",
+    "email_domain": "sabre.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "associate.helpdesk",
+      "associate.helpdesk@sabre.com"
+    ]
+  },
+  {
+    "id": 7001684130,
+    "name": "Atención Al Cliente",
+    "normalized_name": "atención al cliente",
+    "email": "contacto@gabsoluciones.com",
+    "email_domain": "gabsoluciones.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "atención al",
+      "atención al cliente",
+      "cliente",
+      "contacto@gabsoluciones.com"
+    ]
+  },
+  {
+    "id": 7002516792,
+    "name": "Auditoria Caffe Negroni",
+    "normalized_name": "auditoria caffe negroni",
+    "email": "auditoria@caffenegroni.com",
+    "email_domain": "caffenegroni.com",
+    "department_ids": [
+      7000253213
+    ],
+    "department_names": [
+      "Caffè Negroni"
+    ],
+    "active": true,
+    "aliases": [
+      "auditoria caffe",
+      "auditoria caffe negroni",
+      "auditoria@caffenegroni.com",
+      "negroni"
+    ]
+  },
+  {
+    "id": 7002423750,
+    "name": "Aumente sus Ventas",
+    "normalized_name": "aumente sus ventas",
+    "email": "emma@desarrollo25.info",
+    "email_domain": "desarrollo25.info",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aumente sus",
+      "aumente sus ventas",
+      "emma@desarrollo25.info",
+      "ventas"
+    ]
+  },
+  {
+    "id": 7001027928,
+    "name": "Aux Cajas",
+    "normalized_name": "aux cajas",
+    "email": "auxcajas@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "aux",
+      "aux cajas",
+      "auxcajas@turvisa.co.cr",
+      "cajas"
+    ]
+  },
+  {
+    "id": 7002141013,
+    "name": "Aws-customer-research",
+    "normalized_name": "aws-customer-research",
+    "email": "aws-customer-research@amazon.com",
+    "email_domain": "amazon.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aws-customer-research",
+      "aws-customer-research@amazon.com"
+    ]
+  },
+  {
+    "id": 7001922291,
+    "name": "Aws-marketing-email-replies",
+    "normalized_name": "aws-marketing-email-replies",
+    "email": "aws-marketing-email-replies@amazon.com",
+    "email_domain": "amazon.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aws-marketing-email-replies",
+      "aws-marketing-email-replies@amazon.com"
+    ]
+  },
+  {
+    "id": 7001032636,
+    "name": "Azzinary Salas",
+    "normalized_name": "azzinary salas",
+    "email": "azzinary.salas@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "azzinary",
+      "azzinary salas",
+      "azzinary.salas@turvisa.co.cr",
+      "salas"
+    ]
+  },
+  {
+    "id": 7002022148,
+    "name": "BN Contacto Digital",
+    "normalized_name": "bn contacto digital",
+    "email": "bncontacto@bncr.fi.cr",
+    "email_domain": "bncr.fi.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bn contacto",
+      "bn contacto digital",
+      "bncontacto@bncr.fi.cr",
+      "digital"
+    ]
+  },
+  {
+    "id": 7002062040,
+    "name": "Baltonadomargarita5",
+    "normalized_name": "baltonadomargarita5",
+    "email": "baltonadomargarita5@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "baltonadomargarita5",
+      "baltonadomargarita5@gmail.com"
+    ]
+  },
+  {
+    "id": 7001532649,
+    "name": "Beatriz Araya",
+    "normalized_name": "beatriz araya",
+    "email": "beatriz.arayach@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "araya",
+      "beatriz",
+      "beatriz araya",
+      "beatriz.arayach@gmail.com"
+    ]
+  },
+  {
+    "id": 7001788267,
+    "name": "BeelineDoSnups BeelineDoSnups",
+    "normalized_name": "beelinedosnups beelinedosnups",
+    "email": "beelinedoru@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "beelinedoru@gmail.com",
+      "beelinedosnups",
+      "beelinedosnups beelinedosnups"
+    ]
+  },
+  {
+    "id": 7001781037,
+    "name": "BeelineSnups BeelineSnups",
+    "normalized_name": "beelinesnups beelinesnups",
+    "email": "topsite-1@yandex.ru",
+    "email_domain": "yandex.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "beelinesnups",
+      "beelinesnups beelinesnups",
+      "topsite-1@yandex.ru"
+    ]
+  },
+  {
+    "id": 7002509952,
+    "name": "Ben",
+    "normalized_name": "ben",
+    "email": "ben@picsaurus.com",
+    "email_domain": "picsaurus.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "ben",
+      "ben@picsaurus.com"
+    ]
+  },
+  {
+    "id": 7002408962,
+    "name": "Ben Naylor",
+    "normalized_name": "ben naylor",
+    "email": "ben@picthrive.com",
+    "email_domain": "picthrive.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "ben",
+      "ben naylor",
+      "ben@picthrive.com",
+      "naylor"
+    ]
+  },
+  {
+    "id": 7001792551,
+    "name": "Benitoslola Benitoslola",
+    "normalized_name": "benitoslola benitoslola",
+    "email": "perta3kqw@rambler.ru",
+    "email_domain": "rambler.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "benitoslola",
+      "benitoslola benitoslola",
+      "perta3kqw@rambler.ru"
+    ]
+  },
+  {
+    "id": 7002580878,
+    "name": "BennyDor BennyDor",
+    "normalized_name": "bennydor bennydor",
+    "email": "jerremiahvikadivumone@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bennydor",
+      "bennydor bennydor",
+      "jerremiahvikadivumone@gmail.com"
+    ]
+  },
+  {
+    "id": 7001466320,
+    "name": "Bernardfrexy Bernardfrexy",
+    "normalized_name": "bernardfrexy bernardfrexy",
+    "email": "temptest898024618@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bernardfrexy",
+      "bernardfrexy bernardfrexy",
+      "temptest898024618@gmail.com"
+    ]
+  },
+  {
+    "id": 7001588546,
+    "name": "Bertramdom Bertramdom",
+    "normalized_name": "bertramdom bertramdom",
+    "email": "s.fikin@denis.enersets.com",
+    "email_domain": "denis.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bertramdom",
+      "bertramdom bertramdom",
+      "s.fikin@denis.enersets.com"
+    ]
+  },
+  {
+    "id": 7002702119,
+    "name": "Beverley Araya",
+    "normalized_name": "beverley araya",
+    "email": "beverleyaraya333@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "araya",
+      "beverley",
+      "beverley araya",
+      "beverleyaraya333@gmail.com"
+    ]
+  },
+  {
+    "id": 7001712194,
+    "name": "Bianca Rojas Fuentes",
+    "normalized_name": "bianca rojas fuentes",
+    "email": "bianca.rojas@ricoh-la.com",
+    "email_domain": "ricoh-la.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bianca rojas",
+      "bianca rojas fuentes",
+      "bianca.rojas@ricoh-la.com",
+      "fuentes"
+    ]
+  },
+  {
+    "id": 7001211851,
+    "name": "Billing",
+    "normalized_name": "billing",
+    "email": "billing@freshworks.com",
+    "email_domain": "freshworks.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "billing",
+      "billing@freshworks.com"
+    ]
+  },
+  {
+    "id": 7002543190,
+    "name": "Billy Johnson",
+    "normalized_name": "billy johnson",
+    "email": "billyjacobeach@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "billy",
+      "billy johnson",
+      "billyjacobeach@gmail.com",
+      "johnson"
+    ]
+  },
+  {
+    "id": 7001447079,
+    "name": "Billyelomi Billyelomi",
+    "normalized_name": "billyelomi billyelomi",
+    "email": "otve4alka@meta.ua",
+    "email_domain": "meta.ua",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "billyelomi",
+      "billyelomi billyelomi",
+      "otve4alka@meta.ua"
+    ]
+  },
+  {
+    "id": 7001634514,
+    "name": "Bobbieplolf Bobbieplolf",
+    "normalized_name": "bobbieplolf bobbieplolf",
+    "email": "m.fedotkin@a.avalins.com",
+    "email_domain": "a.avalins.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bobbieplolf",
+      "bobbieplolf bobbieplolf",
+      "m.fedotkin@a.avalins.com"
+    ]
+  },
+  {
+    "id": 7001785681,
+    "name": "BobbyDat BobbyDat",
+    "normalized_name": "bobbydat bobbydat",
+    "email": "defltorch@yandex.com",
+    "email_domain": "yandex.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bobbydat",
+      "bobbydat bobbydat",
+      "defltorch@yandex.com"
+    ]
+  },
+  {
+    "id": 7001029518,
+    "name": "Bonifacio Camacho",
+    "normalized_name": "bonifacio camacho",
+    "email": "bcamacho@arquitecturaydiseno.com",
+    "email_domain": "arquitecturaydiseno.com",
+    "department_ids": [
+      7000203698
+    ],
+    "department_names": [
+      "AYD"
+    ],
+    "active": true,
+    "aliases": [
+      "bcamacho@arquitecturaydiseno.com",
+      "bonifacio",
+      "bonifacio camacho",
+      "camacho"
+    ]
+  },
+  {
+    "id": 7002079057,
+    "name": "Bootcamp Internacional",
+    "normalized_name": "bootcamp internacional",
+    "email": "bootcamp.internacional@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bootcamp",
+      "bootcamp internacional",
+      "bootcamp.internacional@gmail.com",
+      "internacional"
+    ]
+  },
+  {
+    "id": 7001516716,
+    "name": "Bradleynuh Bradleynuh",
+    "normalized_name": "bradleynuh bradleynuh",
+    "email": "p.gromyko@max.enersets.com",
+    "email_domain": "max.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bradleynuh",
+      "bradleynuh bradleynuh",
+      "p.gromyko@max.enersets.com"
+    ]
+  },
+  {
+    "id": 7002324348,
+    "name": "Brenda Ortiz",
+    "normalized_name": "brenda ortiz",
+    "email": "contacto@eventosactualiza.com",
+    "email_domain": "eventosactualiza.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "brenda",
+      "brenda ortiz",
+      "contacto@eventosactualiza.com",
+      "ortiz"
+    ]
+  },
+  {
+    "id": 7001594592,
+    "name": "BrianRic BrianRic",
+    "normalized_name": "brianric brianric",
+    "email": "gigasubsea1979@dizaer.ru",
+    "email_domain": "dizaer.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "brianric",
+      "brianric brianric",
+      "gigasubsea1979@dizaer.ru"
+    ]
+  },
+  {
+    "id": 7002612435,
+    "name": "BrianSoulp BrianSoulp",
+    "normalized_name": "briansoulp briansoulp",
+    "email": "deflation-coin@yandex.com",
+    "email_domain": "yandex.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "briansoulp",
+      "briansoulp briansoulp",
+      "deflation-coin@yandex.com"
+    ]
+  },
+  {
+    "id": 7001554401,
+    "name": "Briancot Briancot",
+    "normalized_name": "briancot briancot",
+    "email": "i.shelevich@denis.enersets.com",
+    "email_domain": "denis.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "briancot",
+      "briancot briancot",
+      "i.shelevich@denis.enersets.com"
+    ]
+  },
+  {
+    "id": 7002283062,
+    "name": "Briandug Briandug",
+    "normalized_name": "briandug briandug",
+    "email": "grinkovabdurakip@mail.ru",
+    "email_domain": "mail.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "briandug",
+      "briandug briandug",
+      "grinkovabdurakip@mail.ru"
+    ]
+  },
+  {
+    "id": 7001932243,
+    "name": "Bridgetskalm Bridgetskalm",
+    "normalized_name": "bridgetskalm bridgetskalm",
+    "email": "sinnzzfeb@gordpizza.ru",
+    "email_domain": "gordpizza.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bridgetskalm",
+      "bridgetskalm bridgetskalm",
+      "sinnzzfeb@gordpizza.ru"
+    ]
+  },
+  {
+    "id": 7001181373,
+    "name": "Brittany Parker",
+    "normalized_name": "brittany parker",
+    "email": "brittanyparkerco@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "brittany",
+      "brittany parker",
+      "brittanyparkerco@gmail.com",
+      "parker"
+    ]
+  },
+  {
+    "id": 7002742125,
+    "name": "Bryan Enrique Cordova Ayala",
+    "normalized_name": "bryan enrique cordova ayala",
+    "email": "bryan.cordova@cr.tigo.com",
+    "email_domain": "cr.tigo.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "ayala",
+      "bryan enrique cordova",
+      "bryan enrique cordova ayala",
+      "bryan.cordova@cr.tigo.com"
+    ]
+  },
+  {
+    "id": 7002635218,
+    "name": "Bryan Monge",
+    "normalized_name": "bryan monge",
+    "email": "bms@corderoabogados.com",
+    "email_domain": "corderoabogados.com",
+    "department_ids": [
+      7000256483
+    ],
+    "department_names": [
+      "Cordero & Cordero"
+    ],
+    "active": true,
+    "aliases": [
+      "bms@corderoabogados.com",
+      "bryan",
+      "bryan monge",
+      "monge"
+    ]
+  },
+  {
+    "id": 7001319814,
+    "name": "Bryner Alvarado",
+    "normalized_name": "bryner alvarado",
+    "email": "balvarado@luminet.cr",
+    "email_domain": "luminet.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alvarado",
+      "balvarado@luminet.cr",
+      "bryner",
+      "bryner alvarado"
+    ]
+  },
+  {
+    "id": 7001914254,
+    "name": "BurtonHiche BurtonHiche",
+    "normalized_name": "burtonhiche burtonhiche",
+    "email": "mishakumarreuv7@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "burtonhiche",
+      "burtonhiche burtonhiche",
+      "mishakumarreuv7@gmail.com"
+    ]
+  },
+  {
+    "id": 7002684794,
+    "name": "Business Coaching School",
+    "normalized_name": "business coaching school",
+    "email": "info@businesscoachingschool.com",
+    "email_domain": "businesscoachingschool.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "business coaching",
+      "business coaching school",
+      "info@businesscoachingschool.com",
+      "school"
+    ]
+  },
+  {
+    "id": 7001038267,
+    "name": "Business Inspired by Business Costa Rica",
+    "normalized_name": "business inspired by business costa rica",
+    "email": "proyectos@businessinspiredbybusiness.com",
+    "email_domain": "businessinspiredbybusiness.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "business costa rica",
+      "business inspired by",
+      "business inspired by business costa rica",
+      "proyectos@businessinspiredbybusiness.com"
+    ]
+  },
+  {
+    "id": 7002619453,
+    "name": "Bvalverde",
+    "normalized_name": "bvalverde",
+    "email": "bvalverde@caffenegroni.com",
+    "email_domain": "caffenegroni.com",
+    "department_ids": [
+      7000253213
+    ],
+    "department_names": [
+      "Caffè Negroni"
+    ],
+    "active": true,
+    "aliases": [
+      "bvalverde",
+      "bvalverde@caffenegroni.com"
+    ]
+  },
+  {
+    "id": 7001184125,
+    "name": "Byron Sancho",
+    "normalized_name": "byron sancho",
+    "email": "ventas6@lanprosa.com",
+    "email_domain": "lanprosa.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "byron",
+      "byron sancho",
+      "sancho",
+      "ventas6@lanprosa.com"
+    ]
+  },
+  {
+    "id": 7002055957,
+    "name": "CDN",
+    "normalized_name": "cdn",
+    "email": "cdn@tamtravel.com",
+    "email_domain": "tamtravel.com",
+    "department_ids": [
+      7000246309
+    ],
+    "department_names": [
+      "TAM Travel"
+    ],
+    "active": true,
+    "aliases": [
+      "cdn",
+      "cdn@tamtravel.com"
+    ]
+  },
+  {
+    "id": 7001348767,
+    "name": "CODISA - Cuenta de soporte técnico",
+    "normalized_name": "codisa - cuenta de soporte técnico",
+    "email": "soporte@codisa.com",
+    "email_domain": "codisa.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "codisa - cuenta de soporte técnico",
+      "soporte@codisa.com"
+    ]
+  },
+  {
+    "id": 7002570349,
+    "name": "CORPCOMERCIO",
+    "normalized_name": "corpcomercio",
+    "email": "forocomerciocorp@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "corpcomercio",
+      "forocomerciocorp@gmail.com"
+    ]
+  },
+  {
+    "id": 7002108410,
+    "name": "CORPCOMERCIO",
+    "normalized_name": "corpcomercio",
+    "email": "foroslogisticacorp@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "corpcomercio",
+      "foroslogisticacorp@gmail.com"
+    ]
+  },
+  {
+    "id": 7002694099,
+    "name": "CR - Jose",
+    "normalized_name": "cr - jose",
+    "email": "touroperators@projectexpedition.com",
+    "email_domain": "projectexpedition.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cr - jose",
+      "touroperators@projectexpedition.com"
+    ]
+  },
+  {
+    "id": 7001067644,
+    "name": "Cajimen1",
+    "normalized_name": "cajimen1",
+    "email": "cajimen1@asu.edu",
+    "email_domain": "asu.edu",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cajimen1",
+      "cajimen1@asu.edu"
+    ]
+  },
+  {
+    "id": 7001574362,
+    "name": "Calebchoro Calebchoro",
+    "normalized_name": "calebchoro calebchoro",
+    "email": "svetlana.ivanova.19841@mail.ru",
+    "email_domain": "mail.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "calebchoro",
+      "calebchoro calebchoro",
+      "svetlana.ivanova.19841@mail.ru"
+    ]
+  },
+  {
+    "id": 7001264378,
+    "name": "Cande Z. Bronstein",
+    "normalized_name": "cande z. bronstein",
+    "email": "cande@caisacr.com",
+    "email_domain": "caisacr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bronstein",
+      "cande z.",
+      "cande z. bronstein",
+      "cande@caisacr.com"
+    ]
+  },
+  {
+    "id": 7001093895,
+    "name": "Candy Cordero",
+    "normalized_name": "candy cordero",
+    "email": "candy.cordero@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "candy",
+      "candy cordero",
+      "candy.cordero@turvisa.co.cr",
+      "cordero"
+    ]
+  },
+  {
+    "id": 7001332763,
+    "name": "Candy.cordero",
+    "normalized_name": "candy.cordero",
+    "email": null,
+    "email_domain": null,
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "candy.cordero"
+    ]
+  },
+  {
+    "id": 7002351181,
+    "name": "Capacitación LATAM 2024",
+    "normalized_name": "capacitación latam 2024",
+    "email": "marketing@sobemagazin.com",
+    "email_domain": "sobemagazin.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "capacitación latam 2024",
+      "marketing@sobemagazin.com"
+    ]
+  },
+  {
+    "id": 7002328924,
+    "name": "Capacítate con Experto",
+    "normalized_name": "capacítate con experto",
+    "email": "marketing@performancebusinessmag.com",
+    "email_domain": "performancebusinessmag.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "capacítate con",
+      "capacítate con experto",
+      "experto",
+      "marketing@performancebusinessmag.com"
+    ]
+  },
+  {
+    "id": 7002038662,
+    "name": "Carla Playa",
+    "normalized_name": "carla playa",
+    "email": "asesor4@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "asesor4@esteticcarscr.com",
+      "carla",
+      "carla playa",
+      "playa"
+    ]
+  },
+  {
+    "id": 7001261462,
+    "name": "Carlos Calvosa",
+    "normalized_name": "carlos calvosa",
+    "email": "cacalvosa@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "cacalvosa@gmail.com",
+      "calvosa",
+      "carlos",
+      "carlos calvosa"
+    ]
+  },
+  {
+    "id": 7002621017,
+    "name": "Carlos Flores",
+    "normalized_name": "carlos flores",
+    "email": "cflores@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos flores",
+      "cflores@icc.co.cr",
+      "flores"
+    ]
+  },
+  {
+    "id": 7001946065,
+    "name": "Carlos Marín",
+    "normalized_name": "carlos marín",
+    "email": "cmarin@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos marín",
+      "cmarin@icc.co.cr",
+      "marín"
+    ]
+  },
+  {
+    "id": 7002691293,
+    "name": "Carlos Molina",
+    "normalized_name": "carlos molina",
+    "email": "operationsassit@costaricadmc.com",
+    "email_domain": "costaricadmc.com",
+    "department_ids": [
+      7000204416
+    ],
+    "department_names": [
+      "Costa Rica DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos molina",
+      "molina",
+      "operationsassit@costaricadmc.com"
+    ]
+  },
+  {
+    "id": 7001099238,
+    "name": "Carlos Montealegre",
+    "normalized_name": "carlos montealegre",
+    "email": "carlosmontealgr@aol.com",
+    "email_domain": "aol.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos montealegre",
+      "carlosmontealgr@aol.com",
+      "montealegre"
+    ]
+  },
+  {
+    "id": 7002066987,
+    "name": "Carlos Muñoz",
+    "normalized_name": "carlos muñoz",
+    "email": "carlos.munoz@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos muñoz",
+      "carlos.munoz@shortcuts.la",
+      "muñoz"
+    ]
+  },
+  {
+    "id": 7001028008,
+    "name": "Carlos Navarro",
+    "normalized_name": "carlos navarro",
+    "email": "cnavarro@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "carlos",
+      "carlos navarro",
+      "cnavarro@icc.co.cr",
+      "navarro"
+    ]
+  },
+  {
+    "id": 7001517320,
+    "name": "CarlosDog CarlosDog",
+    "normalized_name": "carlosdog carlosdog",
+    "email": "k.svanin@den.efastes.com",
+    "email_domain": "den.efastes.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "carlosdog",
+      "carlosdog carlosdog",
+      "k.svanin@den.efastes.com"
+    ]
+  },
+  {
+    "id": 7001537337,
+    "name": "Carolina Bello",
+    "normalized_name": "carolina bello",
+    "email": "carobmay@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "bello",
+      "carobmay@gmail.com",
+      "carolina",
+      "carolina bello"
+    ]
+  },
+  {
+    "id": 7001030987,
+    "name": "Carolina Bello",
+    "normalized_name": "carolina bello",
+    "email": "carolina@grupoardigital.com",
+    "email_domain": "grupoardigital.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "bello",
+      "carolina",
+      "carolina bello",
+      "carolina@grupoardigital.com"
+    ]
+  },
+  {
+    "id": 7001426254,
+    "name": "Carolina Chaves",
+    "normalized_name": "carolina chaves",
+    "email": null,
+    "email_domain": null,
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "carolina",
+      "carolina chaves",
+      "chaves"
+    ]
+  },
+  {
+    "id": 7002121043,
+    "name": "Carolina Chaves",
+    "normalized_name": "carolina chaves",
+    "email": "carolina@exclusivecr.com",
+    "email_domain": "exclusivecr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "carolina",
+      "carolina chaves",
+      "carolina@exclusivecr.com",
+      "chaves"
+    ]
+  },
+  {
+    "id": 7001614985,
+    "name": "Carolina Chaves",
+    "normalized_name": "carolina chaves",
+    "email": "carolina@paquetescr.com",
+    "email_domain": "paquetescr.com",
+    "department_ids": [
+      7000235737
+    ],
+    "department_names": [
+      "Paquetes CR"
+    ],
+    "active": true,
+    "aliases": [
+      "carolina",
+      "carolina chaves",
+      "carolina@paquetescr.com",
+      "chaves"
+    ]
+  },
+  {
+    "id": 7001028009,
+    "name": "Carolina Valverde",
+    "normalized_name": "carolina valverde",
+    "email": "cvalverde@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "carolina",
+      "carolina valverde",
+      "cvalverde@icc.co.cr",
+      "valverde"
+    ]
+  },
+  {
+    "id": 7001507277,
+    "name": "CasinoPinUp CasinoPinUp",
+    "normalized_name": "casinopinup casinopinup",
+    "email": "casinopinuponline777@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "casinopinup",
+      "casinopinup casinopinup",
+      "casinopinuponline777@gmail.com"
+    ]
+  },
+  {
+    "id": 7001566855,
+    "name": "Catalina Valverde",
+    "normalized_name": "catalina valverde",
+    "email": "catalina.valverde@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "catalina",
+      "catalina valverde",
+      "catalina.valverde@shortcuts.la",
+      "valverde"
+    ]
+  },
+  {
+    "id": 7001526339,
+    "name": "Cecilpindy Cecilpindy",
+    "normalized_name": "cecilpindy cecilpindy",
+    "email": "d.travolta@info.avalins.com",
+    "email_domain": "info.avalins.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cecilpindy",
+      "cecilpindy cecilpindy",
+      "d.travolta@info.avalins.com"
+    ]
+  },
+  {
+    "id": 7001156917,
+    "name": "Centro Cardiovascular SM",
+    "normalized_name": "centro cardiovascular sm",
+    "email": "saenzcardiovascular@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000216280
+    ],
+    "department_names": [
+      "Centro Cardiovascular SM"
+    ],
+    "active": true,
+    "aliases": [
+      "centro cardiovascular sm",
+      "saenzcardiovascular@gmail.com"
+    ]
+  },
+  {
+    "id": 7001293338,
+    "name": "Centro Diurno Curridabat",
+    "normalized_name": "centro diurno curridabat",
+    "email": "centrodiurnocurridabat@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "centro diurno",
+      "centro diurno curridabat",
+      "centrodiurnocurridabat@gmail.com",
+      "curridabat"
+    ]
+  },
+  {
+    "id": 7001014220,
+    "name": "Centro Urológico",
+    "normalized_name": "centro urológico",
+    "email": "centrodeurologia@outlook.com",
+    "email_domain": "outlook.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "centro urológico",
+      "centrodeurologia@outlook.com"
+    ]
+  },
+  {
+    "id": 7001465756,
+    "name": "Centro de Educación Continua PUCP",
+    "normalized_name": "centro de educación continua pucp",
+    "email": "info_cec@pucp.edu.pe",
+    "email_domain": "pucp.edu.pe",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "centro de",
+      "centro de educación continua pucp",
+      "educación continua pucp",
+      "info_cec@pucp.edu.pe"
+    ]
+  },
+  {
+    "id": 7001106217,
+    "name": "Cesar Omar Terres Villeda",
+    "normalized_name": "cesar omar terres villeda",
+    "email": "cterres@btcamericastech.com",
+    "email_domain": "btcamericastech.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cesar omar terres",
+      "cesar omar terres villeda",
+      "cterres@btcamericastech.com",
+      "villeda"
+    ]
+  },
+  {
+    "id": 7001032239,
+    "name": "Charbyl Martinez Calvo",
+    "normalized_name": "charbyl martinez calvo",
+    "email": "ticocantor@icloud.com",
+    "email_domain": "icloud.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "calvo",
+      "charbyl martinez",
+      "charbyl martinez calvo",
+      "ticocantor@icloud.com"
+    ]
+  },
+  {
+    "id": 7001553849,
+    "name": "CharlesFeact CharlesFeact",
+    "normalized_name": "charlesfeact charlesfeact",
+    "email": "darsusubmoi1976@dizaer.ru",
+    "email_domain": "dizaer.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlesfeact",
+      "charlesfeact charlesfeact",
+      "darsusubmoi1976@dizaer.ru"
+    ]
+  },
+  {
+    "id": 7001918387,
+    "name": "CharlesJup CharlesJup",
+    "normalized_name": "charlesjup charlesjup",
+    "email": "georgiyhovanskiy41@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlesjup",
+      "charlesjup charlesjup",
+      "georgiyhovanskiy41@gmail.com"
+    ]
+  },
+  {
+    "id": 7001545370,
+    "name": "CharlesSault CharlesSault",
+    "normalized_name": "charlessault charlessault",
+    "email": "s.golovenkin@den.efastes.com",
+    "email_domain": "den.efastes.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlessault",
+      "charlessault charlessault",
+      "s.golovenkin@den.efastes.com"
+    ]
+  },
+  {
+    "id": 7001590266,
+    "name": "Charlesbah Charlesbah",
+    "normalized_name": "charlesbah charlesbah",
+    "email": "geuprepilin1951@dizaer.ru",
+    "email_domain": "dizaer.ru",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlesbah",
+      "charlesbah charlesbah",
+      "geuprepilin1951@dizaer.ru"
+    ]
+  },
+  {
+    "id": 7001523201,
+    "name": "Charleskaphy Charleskaphy",
+    "normalized_name": "charleskaphy charleskaphy",
+    "email": "d.hromov@max.enersets.com",
+    "email_domain": "max.enersets.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charleskaphy",
+      "charleskaphy charleskaphy",
+      "d.hromov@max.enersets.com"
+    ]
+  },
+  {
+    "id": 7001441660,
+    "name": "Charlestcvsa Charlestcvsa",
+    "normalized_name": "charlestcvsa charlestcvsa",
+    "email": "yozesyhpe@oturizme.net",
+    "email_domain": "oturizme.net",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlestcvsa",
+      "charlestcvsa charlestcvsa",
+      "yozesyhpe@oturizme.net"
+    ]
+  },
+  {
+    "id": 7002027136,
+    "name": "Charlesvex Charlesvex",
+    "normalized_name": "charlesvex charlesvex",
+    "email": "zprof@free-private-mail.com",
+    "email_domain": "free-private-mail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charlesvex",
+      "charlesvex charlesvex",
+      "zprof@free-private-mail.com"
+    ]
+  },
+  {
+    "id": 7002280185,
+    "name": "CharlieAcrow CharlieAcrow",
+    "normalized_name": "charlieacrow charlieacrow",
+    "email": "aistronghrumer@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "aistronghrumer@gmail.com",
+      "charlieacrow",
+      "charlieacrow charlieacrow"
+    ]
+  },
+  {
+    "id": 7002056718,
+    "name": "Cheap-Soft-crymN Cheap-Soft-crymN",
+    "normalized_name": "cheap-soft-crymn cheap-soft-crymn",
+    "email": "john.mongolfier@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cheap-soft-crymn",
+      "cheap-soft-crymn cheap-soft-crymn",
+      "john.mongolfier@gmail.com"
+    ]
+  },
+  {
+    "id": 7002710634,
+    "name": "Chef",
+    "normalized_name": "chef",
+    "email": "chef@caffenegroni.com",
+    "email_domain": "caffenegroni.com",
+    "department_ids": [
+      7000253213
+    ],
+    "department_names": [
+      "Caffè Negroni"
+    ],
+    "active": true,
+    "aliases": [
+      "chef",
+      "chef@caffenegroni.com"
+    ]
+  },
+  {
+    "id": 7001262840,
+    "name": "Chris Huang",
+    "normalized_name": "chris huang",
+    "email": "chris.huang@ameliarueda.com",
+    "email_domain": "ameliarueda.com",
+    "department_ids": [
+      7000204524
+    ],
+    "department_names": [
+      "Amelia Rueda"
+    ],
+    "active": true,
+    "aliases": [
+      "chris",
+      "chris huang",
+      "chris.huang@ameliarueda.com",
+      "huang"
+    ]
+  },
+  {
+    "id": 7002723390,
+    "name": "Christian Alberto Guevara Rodriguez",
+    "normalized_name": "christian alberto guevara rodriguez",
+    "email": "cguevara@icon.cr",
+    "email_domain": "icon.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cguevara@icon.cr",
+      "christian alberto guevara",
+      "christian alberto guevara rodriguez",
+      "rodriguez"
+    ]
+  },
+  {
+    "id": 7001349543,
+    "name": "Christian Avila",
+    "normalized_name": "christian avila",
+    "email": "cavila@gimdmc.com",
+    "email_domain": "gimdmc.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "avila",
+      "cavila@gimdmc.com",
+      "christian",
+      "christian avila"
+    ]
+  },
+  {
+    "id": 7001691200,
+    "name": "Christian Tosso",
+    "normalized_name": "christian tosso",
+    "email": "christian@gip.cr",
+    "email_domain": "gip.cr",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "christian",
+      "christian tosso",
+      "christian@gip.cr",
+      "tosso"
+    ]
+  },
+  {
+    "id": 7001027901,
+    "name": "Christian Ávila",
+    "normalized_name": "christian ávila",
+    "email": "sr.salesmanager@costaricadmc.com",
+    "email_domain": "costaricadmc.com",
+    "department_ids": [
+      7000204416
+    ],
+    "department_names": [
+      "Costa Rica DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "christian",
+      "christian ávila",
+      "sr.salesmanager@costaricadmc.com",
+      "ávila"
+    ]
+  },
+  {
+    "id": 7001751268,
+    "name": "Cinaguilar18",
+    "normalized_name": "cinaguilar18",
+    "email": "cinaguilar18@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cinaguilar18",
+      "cinaguilar18@gmail.com"
+    ]
+  },
+  {
+    "id": 7002400548,
+    "name": "Cindy Alexandra Rojas Valverde",
+    "normalized_name": "cindy alexandra rojas valverde",
+    "email": "cindy.rojas@senscr.com",
+    "email_domain": "senscr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cindy alexandra",
+      "cindy alexandra rojas valverde",
+      "cindy.rojas@senscr.com",
+      "rojas valverde"
+    ]
+  },
+  {
+    "id": 7001103327,
+    "name": "Cindy Angulo",
+    "normalized_name": "cindy angulo",
+    "email": "cindyangulo.monge@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "angulo",
+      "cindy",
+      "cindy angulo",
+      "cindyangulo.monge@gmail.com"
+    ]
+  },
+  {
+    "id": 7001143278,
+    "name": "Cindy Flores",
+    "normalized_name": "cindy flores",
+    "email": "info@repoparts.net",
+    "email_domain": "repoparts.net",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "cindy",
+      "cindy flores",
+      "flores",
+      "info@repoparts.net"
+    ]
+  },
+  {
+    "id": 7001380486,
+    "name": "Cindy Jiménez Torres",
+    "normalized_name": "cindy jiménez torres",
+    "email": "cindy@purdymo.com",
+    "email_domain": "purdymo.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cindy",
+      "cindy jiménez torres",
+      "cindy@purdymo.com",
+      "jiménez torres"
+    ]
+  },
+  {
+    "id": 7001167199,
+    "name": "Cindy Ramirez - CR Magic DMC",
+    "normalized_name": "cindy ramirez - cr magic dmc",
+    "email": "cramirez@crmagicdmc.com",
+    "email_domain": "crmagicdmc.com",
+    "department_ids": [
+      7000203699
+    ],
+    "department_names": [
+      "CR Magic DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "cindy ramirez - cr magic dmc",
+      "cramirez@crmagicdmc.com"
+    ]
+  },
+  {
+    "id": 7001029519,
+    "name": "Clara González de Bernal",
+    "normalized_name": "clara gonzález de bernal",
+    "email": "cgonzalez@arquitecturaydiseno.com",
+    "email_domain": "arquitecturaydiseno.com",
+    "department_ids": [
+      7000203698
+    ],
+    "department_names": [
+      "AYD"
+    ],
+    "active": true,
+    "aliases": [
+      "cgonzalez@arquitecturaydiseno.com",
+      "clara gonzález",
+      "clara gonzález de bernal",
+      "de bernal"
+    ]
+  },
+  {
+    "id": 7002635208,
+    "name": "Claytonslole Claytonslole",
+    "normalized_name": "claytonslole claytonslole",
+    "email": "xrumer23lef@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "claytonslole",
+      "claytonslole claytonslole",
+      "xrumer23lef@gmail.com"
+    ]
+  },
+  {
+    "id": 7002269956,
+    "name": "CliffOxype CliffOxype",
+    "normalized_name": "cliffoxype cliffoxype",
+    "email": "kasperronny2024@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cliffoxype",
+      "cliffoxype cliffoxype",
+      "kasperronny2024@gmail.com"
+    ]
+  },
+  {
+    "id": 7001292233,
+    "name": "Cmolina",
+    "normalized_name": "cmolina",
+    "email": "cmolina@liquidsw.com",
+    "email_domain": "liquidsw.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cmolina",
+      "cmolina@liquidsw.com"
+    ]
+  },
+  {
+    "id": 7001027931,
+    "name": "Cobros Clubes",
+    "normalized_name": "cobros clubes",
+    "email": "cobros.clubes@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "clubes",
+      "cobros",
+      "cobros clubes",
+      "cobros.clubes@turvisa.co.cr"
+    ]
+  },
+  {
+    "id": 7001027930,
+    "name": "Cobros Turvisa",
+    "normalized_name": "cobros turvisa",
+    "email": "cobros@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "cobros turvisa",
+      "cobros@turvisa.co.cr"
+    ]
+  },
+  {
+    "id": 7001049438,
+    "name": "Code&Sign",
+    "normalized_name": "code&sign",
+    "email": "anibal@codensign.com",
+    "email_domain": "codensign.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anibal@codensign.com",
+      "code&sign"
+    ]
+  },
+  {
+    "id": 7001776434,
+    "name": "Collibia Collibia",
+    "normalized_name": "collibia collibia",
+    "email": "smirsakla@yandex.com",
+    "email_domain": "yandex.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "collibia",
+      "collibia collibia",
+      "smirsakla@yandex.com"
+    ]
+  },
+  {
+    "id": 7001247397,
+    "name": "Comercial Talisman S.A",
+    "normalized_name": "comercial talisman s.a",
+    "email": "ventas@comercialtalisman.com",
+    "email_domain": "comercialtalisman.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "comercial talisman",
+      "comercial talisman s.a",
+      "s.a",
+      "ventas@comercialtalisman.com"
+    ]
+  },
+  {
+    "id": 7001934273,
+    "name": "Compartido DMC",
+    "normalized_name": "compartido dmc",
+    "email": "compartidodmc@tamtravel.com",
+    "email_domain": "tamtravel.com",
+    "department_ids": [
+      7000246309
+    ],
+    "department_names": [
+      "TAM Travel"
+    ],
+    "active": true,
+    "aliases": [
+      "compartido",
+      "compartido dmc",
+      "compartidodmc@tamtravel.com",
+      "dmc"
+    ]
+  },
+  {
+    "id": 7001934231,
+    "name": "Compartido Operaciones GTE",
+    "normalized_name": "compartido operaciones gte",
+    "email": "compartidooperacionesgte@tamtravel.com",
+    "email_domain": "tamtravel.com",
+    "department_ids": [
+      7000246309
+    ],
+    "department_names": [
+      "TAM Travel"
+    ],
+    "active": true,
+    "aliases": [
+      "compartido operaciones",
+      "compartido operaciones gte",
+      "compartidooperacionesgte@tamtravel.com",
+      "gte"
+    ]
+  },
+  {
+    "id": 7001934274,
+    "name": "Compartido TAM GTE Administrativo",
+    "normalized_name": "compartido tam gte administrativo",
+    "email": "compartidotamgteadministrativo@tamtravel.com",
+    "email_domain": "tamtravel.com",
+    "department_ids": [
+      7000246309
+    ],
+    "department_names": [
+      "TAM Travel"
+    ],
+    "active": true,
+    "aliases": [
+      "administrativo",
+      "compartido tam gte",
+      "compartido tam gte administrativo",
+      "compartidotamgteadministrativo@tamtravel.com"
+    ]
+  },
+  {
+    "id": 7001037191,
+    "name": "Complaints BOL Spain",
+    "normalized_name": "complaints bol spain",
+    "email": "calidad@bedsonline.com",
+    "email_domain": "bedsonline.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "calidad@bedsonline.com",
+      "complaints bol",
+      "complaints bol spain",
+      "spain"
+    ]
+  },
+  {
+    "id": 7002683201,
+    "name": "Compras",
+    "normalized_name": "compras",
+    "email": "compras@vidriosbrenes.com",
+    "email_domain": "vidriosbrenes.com",
+    "department_ids": [
+      7000268551
+    ],
+    "department_names": [
+      "Vidrios Brenes"
+    ],
+    "active": true,
+    "aliases": [
+      "compras",
+      "compras@vidriosbrenes.com"
+    ]
+  },
+  {
+    "id": 7002674916,
+    "name": "Compras Estetic Cars",
+    "normalized_name": "compras estetic cars",
+    "email": "bodega@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "bodega@esteticcarscr.com",
+      "cars",
+      "compras estetic",
+      "compras estetic cars"
+    ]
+  },
+  {
+    "id": 7000993049,
+    "name": "Compras Estetic Cars",
+    "normalized_name": "compras estetic cars",
+    "email": "compras@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "compras",
+      "compras estetic cars",
+      "compras@esteticcarscr.com",
+      "estetic cars"
+    ]
+  },
+  {
+    "id": 7002479291,
+    "name": "Con Inteligencia Artificial",
+    "normalized_name": "con inteligencia artificial",
+    "email": "timuppr@desarrollo25.email",
+    "email_domain": "desarrollo25.email",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "artificial",
+      "con inteligencia",
+      "con inteligencia artificial",
+      "timuppr@desarrollo25.email"
+    ]
+  },
+  {
+    "id": 7001561291,
+    "name": "Condusiv Technologies",
+    "normalized_name": "condusiv technologies",
+    "email": "sales@condusiv.com",
+    "email_domain": "condusiv.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "condusiv",
+      "condusiv technologies",
+      "sales@condusiv.com",
+      "technologies"
+    ]
+  },
+  {
+    "id": 7001561956,
+    "name": "Condusiv Technologies",
+    "normalized_name": "condusiv technologies",
+    "email": "sales@condusivstage.wpengine.com",
+    "email_domain": "condusivstage.wpengine.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "condusiv",
+      "condusiv technologies",
+      "sales@condusivstage.wpengine.com",
+      "technologies"
+    ]
+  },
+  {
+    "id": 7001028010,
+    "name": "Connect",
+    "normalized_name": "connect",
+    "email": "connect@freshworks.com",
+    "email_domain": "freshworks.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "connect",
+      "connect@freshworks.com"
+    ]
+  },
+  {
+    "id": 7001087801,
+    "name": "Consultores",
+    "normalized_name": "consultores",
+    "email": "consultores@3ksystems.net",
+    "email_domain": "3ksystems.net",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "consultores",
+      "consultores@3ksystems.net"
+    ]
+  },
+  {
+    "id": 7001027933,
+    "name": "ContaM Turvisa",
+    "normalized_name": "contam turvisa",
+    "email": "contabilidadm@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "contabilidadm@turvisa.co.cr",
+      "contam",
+      "contam turvisa",
+      "turvisa"
+    ]
+  },
+  {
+    "id": 7001247037,
+    "name": "Contabilidad",
+    "normalized_name": "contabilidad",
+    "email": "contabilidad@cyberfuel.com",
+    "email_domain": "cyberfuel.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "contabilidad",
+      "contabilidad@cyberfuel.com"
+    ]
+  },
+  {
+    "id": 7001180280,
+    "name": "Contabilidad - CR Magic DMC",
+    "normalized_name": "contabilidad - cr magic dmc",
+    "email": "contabilidad@crmagicdmc.com",
+    "email_domain": "crmagicdmc.com",
+    "department_ids": [
+      7000203699
+    ],
+    "department_names": [
+      "CR Magic DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "contabilidad - cr magic dmc",
+      "contabilidad@crmagicdmc.com"
+    ]
+  },
+  {
+    "id": 7000999025,
+    "name": "Contabilidad ARA Exports",
+    "normalized_name": "contabilidad ara exports",
+    "email": "contabilidad@araexportscr.com",
+    "email_domain": "araexportscr.com",
+    "department_ids": [
+      7000203702
+    ],
+    "department_names": [
+      "ARA"
+    ],
+    "active": true,
+    "aliases": [
+      "ara exports",
+      "contabilidad",
+      "contabilidad ara exports",
+      "contabilidad@araexportscr.com"
+    ]
+  },
+  {
+    "id": 7001073545,
+    "name": "Contabilidad AVAL",
+    "normalized_name": "contabilidad aval",
+    "email": "contabilidad@avalrental.com",
+    "email_domain": "avalrental.com",
+    "department_ids": [
+      7000203701
+    ],
+    "department_names": [
+      "AVAL"
+    ],
+    "active": true,
+    "aliases": [
+      "aval",
+      "contabilidad",
+      "contabilidad aval",
+      "contabilidad@avalrental.com"
+    ]
+  },
+  {
+    "id": 7002615739,
+    "name": "Contabilidad Shortcuts",
+    "normalized_name": "contabilidad shortcuts",
+    "email": "contabilidad@shortcuts.la",
+    "email_domain": "shortcuts.la",
+    "department_ids": [
+      7000239431
+    ],
+    "department_names": [
+      "Shortcuts"
+    ],
+    "active": true,
+    "aliases": [
+      "contabilidad",
+      "contabilidad shortcuts",
+      "contabilidad@shortcuts.la",
+      "shortcuts"
+    ]
+  },
+  {
+    "id": 7002596879,
+    "name": "Contabilidad2",
+    "normalized_name": "contabilidad2",
+    "email": "contabilidad2@avalrental.com",
+    "email_domain": "avalrental.com",
+    "department_ids": [
+      7000203701
+    ],
+    "department_names": [
+      "AVAL"
+    ],
+    "active": true,
+    "aliases": [
+      "contabilidad2",
+      "contabilidad2@avalrental.com"
+    ]
+  },
+  {
+    "id": 7001228654,
+    "name": "Contacto",
+    "normalized_name": "contacto",
+    "email": "contacto@ticketmining.com",
+    "email_domain": "ticketmining.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "contacto",
+      "contacto@ticketmining.com"
+    ]
+  },
+  {
+    "id": 7002700851,
+    "name": "Controlador Operativo",
+    "normalized_name": "controlador operativo",
+    "email": "controloperativo@esteticcarscr.com",
+    "email_domain": "esteticcarscr.com",
+    "department_ids": [
+      7000198538
+    ],
+    "department_names": [
+      "Estetic Cars"
+    ],
+    "active": true,
+    "aliases": [
+      "controlador",
+      "controlador operativo",
+      "controloperativo@esteticcarscr.com",
+      "operativo"
+    ]
+  },
+  {
+    "id": 7002029918,
+    "name": "Costa Rica Adventure Center",
+    "normalized_name": "costa rica adventure center",
+    "email": "contact@costaricaadventurecenter.com",
+    "email_domain": "costaricaadventurecenter.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "adventure center",
+      "contact@costaricaadventurecenter.com",
+      "costa rica",
+      "costa rica adventure center"
+    ]
+  },
+  {
+    "id": 7001957005,
+    "name": "Costa Rica Adventure Center",
+    "normalized_name": "costa rica adventure center",
+    "email": "contact@costaricaonlineadventure.com",
+    "email_domain": "costaricaonlineadventure.com",
+    "department_ids": [
+      7000242477
+    ],
+    "department_names": [
+      "VLS"
+    ],
+    "active": true,
+    "aliases": [
+      "adventure center",
+      "contact@costaricaonlineadventure.com",
+      "costa rica",
+      "costa rica adventure center"
+    ]
+  },
+  {
+    "id": 7001982548,
+    "name": "Costa Rica Online Adventure",
+    "normalized_name": "costa rica online adventure",
+    "email": "cronlineadventures@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [
+      7000242477
+    ],
+    "department_names": [
+      "VLS"
+    ],
+    "active": true,
+    "aliases": [
+      "costa rica",
+      "costa rica online adventure",
+      "cronlineadventures@gmail.com",
+      "online adventure"
+    ]
+  },
+  {
+    "id": 7001836318,
+    "name": "Cr.vargasaraya",
+    "normalized_name": "cr.vargasaraya",
+    "email": "cr.vargasaraya@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "cr.vargasaraya",
+      "cr.vargasaraya@lan.salvationarmy.org"
+    ]
+  },
+  {
+    "id": 7001836302,
+    "name": "Cr.vargsaraya",
+    "normalized_name": "cr.vargsaraya",
+    "email": "cr.vargsaraya@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "cr.vargsaraya",
+      "cr.vargsaraya@lan.salvationarmy.org"
+    ]
+  },
+  {
+    "id": 7001595939,
+    "name": "Craigcok Craigcok",
+    "normalized_name": "craigcok craigcok",
+    "email": "l.kondratev@a.avalins.com",
+    "email_domain": "a.avalins.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "craigcok",
+      "craigcok craigcok",
+      "l.kondratev@a.avalins.com"
+    ]
+  },
+  {
+    "id": 7001135083,
+    "name": "CrashPlan Small Business Support",
+    "normalized_name": "crashplan small business support",
+    "email": "support@code42.com",
+    "email_domain": "code42.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "crashplan small business",
+      "crashplan small business support",
+      "support",
+      "support@code42.com"
+    ]
+  },
+  {
+    "id": 7000855817,
+    "name": "CrashPlan for Small Business",
+    "normalized_name": "crashplan for small business",
+    "email": "noreply@crashplan.com",
+    "email_domain": "crashplan.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": false,
+    "aliases": [
+      "crashplan for",
+      "crashplan for small business",
+      "noreply@crashplan.com",
+      "small business"
+    ]
+  },
+  {
+    "id": 7000094357,
+    "name": "Credito y Cobro AVAL",
+    "normalized_name": "credito y cobro aval",
+    "email": "creditoycobro@avalrental.com",
+    "email_domain": "avalrental.com",
+    "department_ids": [
+      7000203701
+    ],
+    "department_names": [
+      "AVAL"
+    ],
+    "active": true,
+    "aliases": [
+      "aval",
+      "credito y cobro",
+      "credito y cobro aval",
+      "creditoycobro@avalrental.com"
+    ]
+  },
+  {
+    "id": 7001195995,
+    "name": "Cristian.X Alarcon",
+    "normalized_name": "cristian.x alarcon",
+    "email": "cristian.x.alarcon@sabre.com",
+    "email_domain": "sabre.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "alarcon",
+      "cristian.x",
+      "cristian.x alarcon",
+      "cristian.x.alarcon@sabre.com"
+    ]
+  },
+  {
+    "id": 7001332286,
+    "name": "Cristina Araya",
+    "normalized_name": "cristina araya",
+    "email": "arayaac@medusa-cr.com",
+    "email_domain": "medusa-cr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "araya",
+      "arayaac@medusa-cr.com",
+      "cristina",
+      "cristina araya"
+    ]
+  },
+  {
+    "id": 7001455795,
+    "name": "Cristina Picado",
+    "normalized_name": "cristina picado",
+    "email": "cristina.picado@turvisamayorista.com",
+    "email_domain": "turvisamayorista.com",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "cristina",
+      "cristina picado",
+      "cristina.picado@turvisamayorista.com",
+      "picado"
+    ]
+  },
+  {
+    "id": 7001027934,
+    "name": "Cristina Tamayo",
+    "normalized_name": "cristina tamayo",
+    "email": "cristina.tamayo@turvisa.co.cr",
+    "email_domain": "turvisa.co.cr",
+    "department_ids": [
+      7000204419
+    ],
+    "department_names": [
+      "Turvisa"
+    ],
+    "active": true,
+    "aliases": [
+      "cristina",
+      "cristina tamayo",
+      "cristina.tamayo@turvisa.co.cr",
+      "tamayo"
+    ]
+  },
+  {
+    "id": 7002265634,
+    "name": "Cristina Umana",
+    "normalized_name": "cristina umana",
+    "email": "cristina.umana@sabre.com",
+    "email_domain": "sabre.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cristina",
+      "cristina umana",
+      "cristina.umana@sabre.com",
+      "umana"
+    ]
+  },
+  {
+    "id": 7001532591,
+    "name": "CurtisRow CurtisRow",
+    "normalized_name": "curtisrow curtisrow",
+    "email": "i.perepelkin@a.avalins.com",
+    "email_domain": "a.avalins.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "curtisrow",
+      "curtisrow curtisrow",
+      "i.perepelkin@a.avalins.com"
+    ]
+  },
+  {
+    "id": 7001298970,
+    "name": "Cyberfuel Customer Service",
+    "normalized_name": "cyberfuel customer service",
+    "email": "no-reply@cyberfuel.com",
+    "email_domain": "cyberfuel.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cyberfuel customer",
+      "cyberfuel customer service",
+      "no-reply@cyberfuel.com",
+      "service"
+    ]
+  },
+  {
+    "id": 7001030850,
+    "name": "Cynthia Aponte",
+    "normalized_name": "cynthia aponte",
+    "email": "cintiaaponte1@yahoo.com",
+    "email_domain": "yahoo.com",
+    "department_ids": [
+      7000041157
+    ],
+    "department_names": [
+      "Clientes easyTEK"
+    ],
+    "active": true,
+    "aliases": [
+      "aponte",
+      "cintiaaponte1@yahoo.com",
+      "cynthia",
+      "cynthia aponte"
+    ]
+  },
+  {
+    "id": 7002491087,
+    "name": "Cynthiagac",
+    "normalized_name": "cynthiagac",
+    "email": "cynthiagac@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "cynthiagac",
+      "cynthiagac@gmail.com"
+    ]
+  },
+  {
+    "id": 7002515552,
+    "name": "Céline Dagron",
+    "normalized_name": "céline dagron",
+    "email": "celine.dagron@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "celine.dagron@gmail.com",
+      "céline",
+      "céline dagron",
+      "dagron"
+    ]
+  },
+  {
+    "id": 7002088231,
+    "name": "Daisy Arburola - CR Magic DMC",
+    "normalized_name": "daisy arburola - cr magic dmc",
+    "email": "darburola@crmagicdmc.com",
+    "email_domain": "crmagicdmc.com",
+    "department_ids": [
+      7000203699
+    ],
+    "department_names": [
+      "CR Magic DMC"
+    ],
+    "active": true,
+    "aliases": [
+      "daisy arburola - cr magic dmc",
+      "darburola@crmagicdmc.com"
+    ]
+  },
+  {
+    "id": 7002717226,
+    "name": "Dalia Abu Said",
+    "normalized_name": "dalia abu said",
+    "email": "dalia.abusaid@logistaas.com",
+    "email_domain": "logistaas.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "dalia abu",
+      "dalia abu said",
+      "dalia.abusaid@logistaas.com",
+      "said"
+    ]
+  },
+  {
+    "id": 7001526340,
+    "name": "Damiandropy Damiandropy",
+    "normalized_name": "damiandropy damiandropy",
+    "email": "m.bereza@den.efastes.com",
+    "email_domain": "den.efastes.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "damiandropy",
+      "damiandropy damiandropy",
+      "m.bereza@den.efastes.com"
+    ]
+  },
+  {
+    "id": 7002292401,
+    "name": "Danalef Danalef",
+    "normalized_name": "danalef danalef",
+    "email": "a.le.j.andra.g.rim.sha.w@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "a.le.j.andra.g.rim.sha.w@gmail.com",
+      "danalef",
+      "danalef danalef"
+    ]
+  },
+  {
+    "id": 7001028012,
+    "name": "Daniel Villegas",
+    "normalized_name": "daniel villegas",
+    "email": "dvillegas@icc.co.cr",
+    "email_domain": "icc.co.cr",
+    "department_ids": [
+      7000204641
+    ],
+    "department_names": [
+      "Proyectos ICC"
+    ],
+    "active": true,
+    "aliases": [
+      "daniel",
+      "daniel villegas",
+      "dvillegas@icc.co.cr",
+      "villegas"
+    ]
+  },
+  {
+    "id": 7001104641,
+    "name": "[StreetFiber] Facturacion",
+    "normalized_name": "[streetfiber] facturacion",
+    "email": "facturacion@streetfiber.com",
+    "email_domain": "streetfiber.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "[streetfiber] facturacion",
+      "facturacion@streetfiber.com"
+    ]
+  },
+  {
+    "id": 7002728509,
+    "name": "andrea Fonseca",
+    "normalized_name": "andrea fonseca",
+    "email": "andreadakefo@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "andrea",
+      "andrea fonseca",
+      "andreadakefo@gmail.com",
+      "fonseca"
+    ]
+  },
+  {
+    "id": 7001835285,
+    "name": "ayuda@hioposcr.com",
+    "normalized_name": "ayuda@hioposcr.com",
+    "email": "ayuda@hioposcr.com",
+    "email_domain": "hioposcr.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "ayuda@hioposcr.com"
+    ]
+  },
+  {
+    "id": 7001930385,
+    "name": "blog9tseo blog9tseo",
+    "normalized_name": "blog9tseo blog9tseo",
+    "email": "anikamendibles467@zlot555.com",
+    "email_domain": "zlot555.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "anikamendibles467@zlot555.com",
+      "blog9tseo",
+      "blog9tseo blog9tseo"
+    ]
+  },
+  {
+    "id": 7001732026,
+    "name": "brazzers brazzers",
+    "normalized_name": "brazzers brazzers",
+    "email": "laryymanyy@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "brazzers",
+      "brazzers brazzers",
+      "laryymanyy@gmail.com"
+    ]
+  },
+  {
+    "id": 7001933613,
+    "name": "charleshicktw charleshicktw",
+    "normalized_name": "charleshicktw charleshicktw",
+    "email": "charleshicks060@gmail.com",
+    "email_domain": "gmail.com",
+    "department_ids": [],
+    "department_names": [],
+    "active": true,
+    "aliases": [
+      "charleshicks060@gmail.com",
+      "charleshicktw",
+      "charleshicktw charleshicktw"
+    ]
+  },
+  {
+    "id": 7001638626,
+    "name": "Ángela Pertuz",
+    "normalized_name": "ángela pertuz",
+    "email": "angela.pertuz@lan.salvationarmy.org",
+    "email_domain": "lan.salvationarmy.org",
+    "department_ids": [
+      7000237956
+    ],
+    "department_names": [
+      "Salvation Army"
+    ],
+    "active": true,
+    "aliases": [
+      "angela.pertuz@lan.salvationarmy.org",
+      "pertuz",
+      "ángela",
+      "ángela pertuz"
+    ]
+  }
+]

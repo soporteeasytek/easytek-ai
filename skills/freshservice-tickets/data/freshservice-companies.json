@@ -1,0 +1,423 @@
+[
+  {
+    "id": 7000238861,
+    "name": "AD Cúbica",
+    "normalized_name": "ad cúbica",
+    "domains": [
+      "adcubica.com"
+    ],
+    "aliases": [
+      "ad cúbica",
+      "adcubica.com"
+    ],
+    "head_name": "Olman Barrantes",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000203702,
+    "name": "ARA",
+    "normalized_name": "ara",
+    "domains": [
+      "araexportscr.com",
+      "aralogisticsgroundservice.com",
+      "gtradecr.com",
+      "martranscr.com"
+    ],
+    "aliases": [
+      "ara",
+      "araexportscr.com",
+      "aralogisticsgroundservice.com",
+      "gtradecr.com",
+      "martranscr.com"
+    ],
+    "head_name": "Abraham Retana",
+    "prime_user_name": "Susan Jaubert",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000203701,
+    "name": "AVAL",
+    "normalized_name": "aval",
+    "domains": [
+      "avalrental.com",
+      "avalrental.net",
+      "concretone.com"
+    ],
+    "aliases": [
+      "aval",
+      "avalrental.com",
+      "avalrental.net",
+      "concretone.com"
+    ],
+    "head_name": "Javier Valverde",
+    "prime_user_name": "Procesos AVAL",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000203698,
+    "name": "AYD",
+    "normalized_name": "ayd",
+    "domains": [
+      "arquitecturaydiseno.com"
+    ],
+    "aliases": [
+      "arquitecturaydiseno.com",
+      "ayd"
+    ],
+    "head_name": "Jorge Montenegro",
+    "prime_user_name": "Jorge Montenegro",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000204524,
+    "name": "Amelia Rueda",
+    "normalized_name": "amelia rueda",
+    "domains": [],
+    "aliases": [
+      "amelia rueda"
+    ],
+    "head_name": "Minor Arrieta Rojas",
+    "prime_user_name": "Amelia Rueda",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000235761,
+    "name": "Ana Maria Montealegre",
+    "normalized_name": "ana maria montealegre",
+    "domains": [],
+    "aliases": [
+      "ana maria montealegre"
+    ],
+    "head_name": "Anamaría Montealegre",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000252451,
+    "name": "BrandStudio",
+    "normalized_name": "brandstudio",
+    "domains": [
+      "brandstudiocr.com"
+    ],
+    "aliases": [
+      "brandstudio",
+      "brandstudiocr.com"
+    ],
+    "head_name": "Fabiola Solano",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000203699,
+    "name": "CR Magic DMC",
+    "normalized_name": "cr magic dmc",
+    "domains": [
+      "crmagicdmc.com"
+    ],
+    "aliases": [
+      "cr magic dmc",
+      "crmagicdmc.com"
+    ],
+    "head_name": "Alejandra Aguilar",
+    "prime_user_name": "Alejandra Aguilar",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000257226,
+    "name": "CRB Restaurants",
+    "normalized_name": "crb restaurants",
+    "domains": [
+      "crb-cr.com"
+    ],
+    "aliases": [
+      "crb restaurants",
+      "crb-cr.com"
+    ],
+    "head_name": "Erick Morales",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000253213,
+    "name": "Caffè Negroni",
+    "normalized_name": "caffè negroni",
+    "domains": [
+      "caffenegroni.com"
+    ],
+    "aliases": [
+      "caffenegroni.com",
+      "caffè negroni"
+    ],
+    "head_name": "Danny Solano",
+    "prime_user_name": "Danny Solano",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000235760,
+    "name": "Casa Aguizotes",
+    "normalized_name": "casa aguizotes",
+    "domains": [],
+    "aliases": [
+      "casa aguizotes"
+    ],
+    "head_name": "Gerencia Agüizotes",
+    "prime_user_name": "Jorge Lopez",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000216280,
+    "name": "Centro Cardiovascular SM",
+    "normalized_name": "centro cardiovascular sm",
+    "domains": [],
+    "aliases": [
+      "centro cardiovascular sm"
+    ],
+    "head_name": "Marco Rodriguez",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000041157,
+    "name": "Clientes easyTEK",
+    "normalized_name": "clientes easytek",
+    "domains": [],
+    "aliases": [
+      "clientes easytek"
+    ],
+    "head_name": "Soporte easyTEK",
+    "prime_user_name": "Soporte easyTEK",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000256483,
+    "name": "Cordero & Cordero",
+    "normalized_name": "cordero & cordero",
+    "domains": [
+      "corderoabogados.com"
+    ],
+    "aliases": [
+      "cordero & cordero",
+      "corderoabogados.com"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000204416,
+    "name": "Costa Rica DMC",
+    "normalized_name": "costa rica dmc",
+    "domains": [
+      "costaricadmc.com"
+    ],
+    "aliases": [
+      "costa rica dmc",
+      "costaricadmc.com"
+    ],
+    "head_name": "Mauricio Arévalo",
+    "prime_user_name": "Irene Montealegre",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000238495,
+    "name": "CyC Ingeniería",
+    "normalized_name": "cyc ingeniería",
+    "domains": [],
+    "aliases": [
+      "cyc ingeniería"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000252450,
+    "name": "Entrecortes Mafad",
+    "normalized_name": "entrecortes mafad",
+    "domains": [
+      "entrecortesmafad.com"
+    ],
+    "aliases": [
+      "entrecortes mafad",
+      "entrecortesmafad.com"
+    ],
+    "head_name": "Mariela Sanchez",
+    "prime_user_name": "Andrea Camacho",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000198538,
+    "name": "Estetic Cars",
+    "normalized_name": "estetic cars",
+    "domains": [
+      "esteticcarscr.com"
+    ],
+    "aliases": [
+      "estetic cars",
+      "esteticcarscr.com"
+    ],
+    "head_name": "Olga Florez",
+    "prime_user_name": "Oscar Fonseca",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000241698,
+    "name": "Exclusive Accounting",
+    "normalized_name": "exclusive accounting",
+    "domains": [],
+    "aliases": [
+      "exclusive accounting"
+    ],
+    "head_name": "Fabian Umaña",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000283889,
+    "name": "Full Pets CR",
+    "normalized_name": "full pets cr",
+    "domains": [
+      "fullpetscr.com"
+    ],
+    "aliases": [
+      "full pets cr",
+      "fullpetscr.com"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000203700,
+    "name": "GIP",
+    "normalized_name": "gip",
+    "domains": [],
+    "aliases": [
+      "gip"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000244252,
+    "name": "Hacienda Montemar",
+    "normalized_name": "hacienda montemar",
+    "domains": [],
+    "aliases": [
+      "hacienda montemar"
+    ],
+    "head_name": "Hacienda Montemar",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000283863,
+    "name": "Hotel Amapola",
+    "normalized_name": "hotel amapola",
+    "domains": [
+      "amapolaresort.com"
+    ],
+    "aliases": [
+      "amapolaresort.com",
+      "hotel amapola"
+    ],
+    "head_name": "Glen Luxtle Soto",
+    "prime_user_name": "Glen Luxtle Soto",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000252691,
+    "name": "ICDE World Conference 2023",
+    "normalized_name": "icde world conference 2023",
+    "domains": [
+      "icdeworldconference2023.com"
+    ],
+    "aliases": [
+      "icde world conference 2023",
+      "icdeworldconference2023.com"
+    ],
+    "head_name": "ICDE World Conference 2023",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000262391,
+    "name": "IO Fabrics",
+    "normalized_name": "io fabrics",
+    "domains": [],
+    "aliases": [
+      "io fabrics"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000256779,
+    "name": "Jaco CS",
+    "normalized_name": "jaco cs",
+    "domains": [
+      "jacocs.com"
+    ],
+    "aliases": [
+      "jaco cs",
+      "jacocs.com"
+    ],
+    "head_name": "Gerencia Jaco CS",
+    "prime_user_name": "Gerencia Jaco CS",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000261216,
+    "name": "LACSC 2024",
+    "normalized_name": "lacsc 2024",
+    "domains": [],
+    "aliases": [
+      "lacsc 2024"
+    ],
+    "head_name": null,
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000199882,
+    "name": "LIM Travel",
+    "normalized_name": "lim travel",
+    "domains": [
+      "lim.co.cr"
+    ],
+    "aliases": [
+      "lim travel",
+      "lim.co.cr"
+    ],
+    "head_name": "Luis Alonso Mendoza",
+    "prime_user_name": "Luis Alonso Mendoza",
+    "workspace_id": 1
+  },
+  {
+    "id": 7000242665,
+    "name": "Magic Traveling",
+    "normalized_name": "magic traveling",
+    "domains": [],
+    "aliases": [
+      "magic traveling"
+    ],
+    "head_name": "Deikelin López - Magic Traveling",
+    "prime_user_name": null,
+    "workspace_id": 1
+  },
+  {
+    "id": 7000235737,
+    "name": "Paquetes CR",
+    "normalized_name": "paquetes cr",
+    "domains": [],
+    "aliases": [
+      "paquetes cr"
+    ],
+    "head_name": "Carolina Chaves",
+    "prime_user_name": null,
+    "workspace_id": 1
+  }
+]

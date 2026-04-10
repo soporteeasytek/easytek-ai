@@ -1,0 +1,20 @@
+{
+  "companies": [
+    {
+      "name": "ARA",
+      "aliases": ["ara", "a r a"]
+    },
+    {
+      "name": "AVAL",
+      "aliases": ["aval"]
+    },
+    {
+      "name": "Shortcuts",
+      "aliases": ["shortcuts", "short cuts"]
+    },
+    {
+      "name": "Statera Outsourcing",
+      "aliases": ["statera", "statera outsourcing"]
+    }
+  ]
+}
